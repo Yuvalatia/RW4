@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    
+}
+#logo{
+    width: 80%;
+}
+#realm{
+    /*argin-top: 3px;*/
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: darkgoldenrod;
+    height: 50%;
+    border-bottom: 2px solid #212529;
+    border-left: 2px solid #212529;
+    border-right: 2px solid #212529;
+    /*background-color: aliceblue;*/
+}
+#botm{
+    text-align: center;
+
+}
+#pageBanner{
+    color: #dce9eb;
+    padding: 5px;
+    text-align: center;
+    
+}
+#botm a:hover {
+    text-decoration: none;
+}
+input:invalid {
+    background-color: #212529;
+    color: #dce9eb;
+    border: 1px solid black;
+    text-align: center;
+}
+/* Webkit problem color change fix */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #212529 inset !important;
+    -webkit-text-fill-color: #dce9eb !important;
+}
+input:valid {
+    background-color: #212529;
+    color: #dce9eb;
+    border: 1px solid black;
+    text-align: center;
+}
+input:valid:focus {
+    background-color: #212529;
+    color: #dce9eb;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+}
+input:invalid:focus {
+    background-color: #212529;
+    color: #dce9eb;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+}
+#username:focus{
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+/* Webkit problem color change fix */
+#username:-webkit-autofill,
+#username:-webkit-autofill:hover,
+#username:-webkit-autofill:focus,
+#username:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px darkgoldenrod inset !important;
+    -webkit-text-fill-color: black !important;
+}
+#username{
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#usertitle{
+    text-align: center;
+}
+#race{
+    background-color: #212529;
+    border: none;
+    color: #dce9eb;
+}
+#submit{
+    background-color: darkgoldenrod;
+    color: black;
+    border: 1px solid darkgoldenrod;
+}
+#submit:hover{
+    background-color: #C4910B;
+}
+
+
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(184, 134, 11, 0.6);
+}
+#submit:hover{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(184, 134, 11, 0.6);
+}
+#modal-newUser .modal-content{
+    text-align: center;
+    border: 1px solid white;
+    background-color: #212529;
+    color:white;
+
+}
+#modal-newUser .modal-header h5{
+    padding-left: 100px;
+}
+#modal-newUser .modal-header button:hover{
+    border: none;
+}
+#modal-login .modal-content{
+    text-align: center;
+    border: 1px solid white;
+    background-color: #212529;
+    color:white;
+
+}
+#modal-login .modal-header h5{
+    padding-left: 190px;
+}
+#modal-login input{
+    border: 1px solid white;
+}
+.modal-content{
+    text-align: center;
+    border: 1px solid white;
+    background-color: #212529;
+    color:white;
+
+}
