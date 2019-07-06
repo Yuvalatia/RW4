@@ -30,7 +30,9 @@
                     exit();
                 }else{
                     session_start();
-                    $user_id = $row['userId'];
+                    // SET USER ID
+                    $_SESSION['userId'] = $row['userId'];
+                    // FETCH USER DETAILS
                     require ('userDetailsFetch.php');
                     header("Location: ../base.php");
                     exit();

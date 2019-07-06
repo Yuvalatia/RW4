@@ -1,7 +1,7 @@
 <?php
 
     // SET USER ID
-    $_SESSION['userId'] = $user_id;
+    $user_id = $_SESSION['userId'];
 
     // USER GLOBAL INFO
     $_SESSION['userArmy']     = $row['userArmy'];
