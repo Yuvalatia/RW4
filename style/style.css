@@ -139,3 +139,11 @@ input:invalid:focus {
     color:white;
 
 }
+#armyNameTag {
+    color: darkgoldenrod;
+    font-weight: bolder;
+}
+#armyNameTag:hover{
+    color: #d0970b;
+    font-weight: bolder;
+}
