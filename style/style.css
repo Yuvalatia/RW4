@@ -253,3 +253,79 @@ input:invalid:focus {
     color: rgba(42, 42, 115, 0.94);
     font-weight: bold;
 }
+
+/* ELF - MENU */
+
+.elf-pic{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 230px;
+    height: 162px;
+    background-image: url("../imgs/elf.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.elf-menu:hover .elf-pic{
+    background-image: url("../imgs/elfBright.gif");
+    transition: all 1s ease-in-out;
+}
+
+.elf-menu:not( :hover ) .elf-pic{
+    background-image: url("../imgs/elf.gif");
+    transition: all 1s ease-in-out;
+}
+
+.elf-menu:hover{
+    border-top: 3px solid rgba(47, 121, 16, 0.94);
+    border-bottom: 3px solid rgba(47, 121, 16, 0.94);
+    transition: all 1s ease-in-out;
+}
+.elf-menu:not( :hover ){
+    border-top: 3px solid #dce9eb;
+    border-bottom: 3px solid #dce9eb;
+    transition: all 1s ease-in-out;
+}
+
+.elf-title{
+    color: rgba(47, 121, 16, 0.94);
+    font-weight: bold;
+}
+
+/* DEAD - MENU */
+
+.dead-pic{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 218px;
+    height: 162px;
+    background-image: url("../imgs/undead.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dead-menu:hover .dead-pic{
+    background-image: url("../imgs/undeadBright.gif");
+    transition: all 1s ease-in-out;
+}
+
+.dead-menu:not( :hover ) .dead-pic{
+    background-image: url("../imgs/undead.gif");
+    transition: all 1s ease-in-out;
+}
+
+.dead-menu:hover{
+    border-top: 3px solid rgba(115, 25, 97, 0.94);
+    border-bottom: 3px solid rgba(115, 25, 97, 0.94);;
+    transition: all 1s ease-in-out;
+}
+.dead-menu:not( :hover ){
+    border-top: 3px solid #dce9eb;
+    border-bottom: 3px solid #dce9eb;
+    transition: all 1s ease-in-out;
+}
+
+.dead-title{
+    color: rgba(115, 25, 97, 0.94);
+    font-weight: bold;
+}
