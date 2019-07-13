@@ -147,3 +147,109 @@ input:invalid:focus {
     color: #d0970b;
     font-weight: bolder;
 }
+.list-group-item{
+    background-color: black;
+}
+.list-group-item a{
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+.list-group-item a:hover{
+    color: #dce9eb;
+    font-weight: bold;
+    /*transition: all 1s ease-in-out;*/
+}
+
+.player-menu{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 3px solid #dce9eb;
+    border-bottom: 3px solid #dce9eb;
+    border-radius: 7px 7px;
+    color: rgba(255,255,255,.5);
+    text-align: center;
+}
+.race-pic{
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* ORC - MENU */
+
+.orc-pic{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 250px;
+    height: 162px;
+    background-image: url("../imgs/orc.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.orc-menu:hover .orc-pic{
+    background-image: url("../imgs/orcBright.gif");
+    transition: all 1s ease-in-out;
+}
+
+.orc-menu:not( :hover ) .orc-pic{
+    background-image: url("../imgs/orc.gif");
+    transition: all 1s ease-in-out;
+}
+
+.orc-menu:hover{
+    border-top: 3px solid firebrick;
+    border-bottom: 3px solid firebrick;
+    transition: all 1s ease-in-out;
+}
+.orc-menu:not( :hover ){
+    border-top: 3px solid #dce9eb;
+    border-bottom: 3px solid #dce9eb;
+    transition: all 1s ease-in-out;
+}
+
+.orc-title{
+    color: firebrick;
+    font-weight: bold;
+}
+
+/* HUMAN - MENU */
+
+.human-pic{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 218px;
+    height: 162px;
+    background-image: url("../imgs/human.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.human-menu:hover .human-pic{
+    background-image: url("../imgs/humanBright.gif");
+    transition: all 1s ease-in-out;
+}
+
+.human-menu:not( :hover ) .human-pic{
+    background-image: url("../imgs/human.gif");
+    transition: all 1s ease-in-out;
+}
+
+.human-menu:hover{
+    border-top: 3px solid rgba(42, 42, 115, 0.94);
+    border-bottom: 3px solid rgba(42, 42, 115, 0.94);;
+    transition: all 1s ease-in-out;
+}
+.human-menu:not( :hover ){
+    border-top: 3px solid #dce9eb;
+    border-bottom: 3px solid #dce9eb;
+    transition: all 1s ease-in-out;
+}
+
+.human-title{
+    color: rgba(42, 42, 115, 0.94);
+    font-weight: bold;
+}
