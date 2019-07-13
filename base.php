@@ -9,7 +9,7 @@ include ('userHeader.php');
             $id = $_SESSION['userId'];
             echo $_SESSION['userArmy'];
 
-            echo "Untrained: ".$_SESSION['userUntrain'];
+            echo "race: ".$_SESSION['userRace'];
             echo "Warriors: ".$_SESSION['userWarriors'];
             echo "Workers: ".$_SESSION['userWorkers'];
             echo "wisdom: ".$_SESSION['userWizdom'];

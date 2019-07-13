@@ -12,10 +12,10 @@ exit();
         <div class="container player-menu <?php
         // RACE MENU
         switch ($_SESSION['userRace']){
-            case 1 : echo "orc"; break;
-            case 2 : echo "human"; break;
-            case 3 : echo "elf"; break;
-            case 4 : echo "dead"; break;
+            case 0 : echo "orc"; break;
+            case 1 : echo "human"; break;
+            case 2 : echo "elf"; break;
+            case 3 : echo "dead"; break;
         }
         ?>-menu">
             <div class="row">
@@ -24,10 +24,10 @@ exit();
                     <div class="<?php
                     // RACE PIC
                     switch ($_SESSION['userRace']){
-                        case 1 : echo "orc"; break;
-                        case 2 : echo "human"; break;
-                        case 3 : echo "elf"; break;
-                        case 4 : echo "dead"; break;
+                        case 0 : echo "orc"; break;
+                        case 1 : echo "human"; break;
+                        case 2 : echo "elf"; break;
+                        case 3 : echo "dead"; break;
                     }
                     ?>-pic">
 
@@ -37,18 +37,18 @@ exit();
                 <div class="col-sm-12 <?php
                 // RACE TITLE
                 switch ($_SESSION['userRace']){
-                    case 1 : echo "orc"; break;
-                    case 2 : echo "human"; break;
-                    case 3 : echo "elf"; break;
-                    case 4 : echo "dead"; break;
+                    case 0 : echo "orc"; break;
+                    case 1 : echo "human"; break;
+                    case 2 : echo "elf"; break;
+                    case 3 : echo "dead"; break;
                 }
                 ?>-title">
                     <?php
                     switch ($_SESSION['userRace']){
-                        case 1 : echo "For The Horde !!"; break;
-                        case 2 : echo "Humanity Shall Not Fall !"; break;
-                        case 3 : echo "The Nature is RestLess"; break;
-                        case 4 : echo "The Dead Stand Ready"; break;
+                        case 0 : echo "For The Horde !!"; break;
+                        case 1 : echo "Humanity Shall Not Fall !"; break;
+                        case 2 : echo "The Nature is RestLess"; break;
+                        case 3 : echo "The Dead Stand Ready"; break;
                     }
                     ?>
                     <hr class="menu-line">
