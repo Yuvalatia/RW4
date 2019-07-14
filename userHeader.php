@@ -5,6 +5,7 @@ if(!isset($_SESSION['userId'])){
 header("Location: index.php");
 exit();
 }
+
 ?>
 
 <div class="row">

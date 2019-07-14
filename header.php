@@ -1,5 +1,10 @@
 <?php
     session_start();
+
+    if(isset($_SESSION['userId'])) {
+    // FETCH USER DETAILS
+        require('includes/userDetailsFetch.php');
+    }
 ?>
 <!doctype html>
 <html lang="en">

@@ -1,9 +1,15 @@
 <?php
+    // DATABASE CONNECTED
+    require ('dbh.php');
 
     // SET USER ID
     $user_id = $_SESSION['userId'];
 
     // USER GLOBAL INFO
+    $sql     = "SELECT * FROM users WHERE userId = '$user_id'";
+    $results = mysqli_query($conn,$sql);
+    $row     = mysqli_fetch_assoc($results);
+
     $_SESSION['userArmy']     = $row['userArmy'];
     $_SESSION['userRace']     = $row['userRace'];
     $_SESSION['userName']     = $row['userName'];
