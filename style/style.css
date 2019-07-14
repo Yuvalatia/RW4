@@ -97,7 +97,9 @@ input:invalid:focus {
 #submit:hover{
     background-color: #C4910B;
 }
-
+li.list-group-item{
+    padding: 6px 20px;
+}
 
 .form-control:focus {
     border-color: #FF0000;
@@ -328,4 +330,59 @@ input:invalid:focus {
 .dead-title{
     color: rgba(115, 25, 97, 0.94);
     font-weight: bold;
+}
+
+/* res-table */
+.res-table{
+    padding: 10px;
+
+    margin: 10px;
+   /* border: 1px solid #888888;*/
+   /* border-radius: 5px 5px;*/
+    text-align: center;
+
+}
+/* info-table */
+.info-table{
+    padding-top: 10px;
+
+    margin: 10px;
+    margin-top: 40px;
+
+    border-radius: 5px 5px;
+    text-align: center;
+}
+/* info-table2 */
+.info-table2{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    margin: 10px;
+
+
+    /*border: 3px solid darkgoldenrod;*/
+    border-radius: 5px 5px;
+    text-align: center;
+}
+/* ICONS */
+.icon-pic{
+    width: 50px;
+    height: 50px;
+}
+.stat-name{
+   color: rgba(255,255,255,.75);
+}
+.tStat-res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tStat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

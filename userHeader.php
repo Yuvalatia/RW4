@@ -59,9 +59,12 @@ exit();
                         <li class="list-group-item"><a href="base.php">Attack</a></li>
                         <li class="list-group-item"><a href="base.php">Clan</a></li>
                         <li class="list-group-item"><a href="base.php">Training</a></li>
+                        <li class="list-group-item"><a href="base.php">Hero</a></li>
                         <li class="list-group-item"><a href="base.php">Developing</a></li>
                         <li class="list-group-item"><a href="base.php">Store</a></li>
+                        <li class="list-group-item"><a href="base.php">Bank</a></li>
                         <li class="list-group-item"><a href="base.php">History</a></li>
+
                     </ul>
                 </div>
             </div>

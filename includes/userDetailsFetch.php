@@ -58,6 +58,8 @@
     $_SESSION['userSpying']     = $row['userSpying'];
     $_SESSION['userSight']      = $row['userSight'];
 
+    // Calculate General Power
+    $_SESSION['userGeneralPower'] = ($_SESSION['userAtt'] + $_SESSION['userDef'] + $_SESSION['userSpying'] + $_SESSION['userSight']) /4;
 
 
 
