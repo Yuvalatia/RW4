@@ -194,23 +194,23 @@ li.list-group-item{
 }
 .orc-menu:hover .orc-pic{
     background-image: url("../imgs/orcBright.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .orc-menu:not( :hover ) .orc-pic{
     background-image: url("../imgs/orc.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .orc-menu:hover{
     border-top: 3px solid firebrick;
     border-bottom: 3px solid firebrick;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .orc-menu:not( :hover ){
     border-top: 3px solid #dce9eb;
     border-bottom: 3px solid #dce9eb;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .orc-title{
@@ -232,23 +232,23 @@ li.list-group-item{
 }
 .human-menu:hover .human-pic{
     background-image: url("../imgs/humanBright.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .human-menu:not( :hover ) .human-pic{
     background-image: url("../imgs/human.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .human-menu:hover{
     border-top: 3px solid rgba(42, 42, 115, 0.94);
     border-bottom: 3px solid rgba(42, 42, 115, 0.94);;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .human-menu:not( :hover ){
     border-top: 3px solid #dce9eb;
     border-bottom: 3px solid #dce9eb;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .human-title{
@@ -270,23 +270,23 @@ li.list-group-item{
 }
 .elf-menu:hover .elf-pic{
     background-image: url("../imgs/elfBright.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .elf-menu:not( :hover ) .elf-pic{
     background-image: url("../imgs/elf.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .elf-menu:hover{
     border-top: 3px solid rgba(47, 121, 16, 0.94);
     border-bottom: 3px solid rgba(47, 121, 16, 0.94);
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .elf-menu:not( :hover ){
     border-top: 3px solid #dce9eb;
     border-bottom: 3px solid #dce9eb;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .elf-title{
@@ -308,28 +308,64 @@ li.list-group-item{
 }
 .dead-menu:hover .dead-pic{
     background-image: url("../imgs/undeadBright.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .dead-menu:not( :hover ) .dead-pic{
     background-image: url("../imgs/undead.gif");
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .dead-menu:hover{
     border-top: 3px solid rgba(115, 25, 97, 0.94);
     border-bottom: 3px solid rgba(115, 25, 97, 0.94);;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .dead-menu:not( :hover ){
     border-top: 3px solid #dce9eb;
     border-bottom: 3px solid #dce9eb;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .dead-title{
     color: rgba(115, 25, 97, 0.94);
     font-weight: bold;
+}
+/* ref spot */
+.referral{
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px 5px;
+    background-color: rgba(113, 10, 8, 0.73);
+    padding: 10px;
+}
+.ref-text{
+    color: #dce9eb;
+}
+.referral input{
+    height: 30px;
+    /*width: 70%;*/
+}
+.referral table{
+    margin-top: 2px;
+}
+.diamonds{
+    text-align: center;
+}
+#diamond-btn{
+    white-space: normal;
+    line-height: 0em;
+    padding: 0px;
+    background-color: darkgoldenrod;
+    color: black;
+    border: 1px solid darkgoldenrod;
+    font-size: small;
+    padding: 2px;
+    font-weight: bold;
+    height: 15px;
+}
+#diamond-btn:hover{
+    background-color: #C4910B;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(184, 134, 11, 0.6);
 }
 
 /* res-table */
@@ -386,3 +422,4 @@ li.list-group-item{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+

@@ -199,6 +199,33 @@ include ('userHeader.php');
         </table>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 referral">
+            <div class="row">
+                <div class="col-sm-8">
+                    <span class="ref-text">Your referral link:</span><br>
+                    <small>* each referral reward you 10 turns + 10 diamonds.</small>
+                    <input type="text" class="form-control" id="ref" name="ref"
+                    value="http://www.rw4.com/register?refCode=???">
+                </div>
+                <div class="col-sm-4 tStat diamonds">
+                    <table>
+                        <tr>
+                            <td rowspan="2"><img class="icon-pic" src="icons/diamonds.png" alt="diamonds"></td>
+                            <td class="stat-name">Diamonds</td>
+                        </tr>
+                        <tr>
+                            <td><?php echo "0" ?></td>
+                        </tr>
+                    </table>
+                    <button id="diamond-btn" class="btn btn-xs">Diamond shop</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 
