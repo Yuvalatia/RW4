@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    
+    padding-bottom: 3px
 }
 #logo{
     width: 80%;
@@ -8,19 +8,21 @@ body {
 #realm{
     /*argin-top: 3px;*/
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 25px;
     color: darkgoldenrod;
     height: 50%;
     border-bottom: 2px solid #212529;
     border-left: 2px solid #212529;
     border-right: 2px solid #212529;
     /*background-color: aliceblue;*/
+
 }
 #botm{
     text-align: center;
 
 }
 #pageBanner{
+    text-shadow: 0 0 3px #dce9eb;
     color: #dce9eb;
     padding: 5px;
     text-align: center;
@@ -172,6 +174,10 @@ li.list-group-item{
     border-radius: 7px 7px;
     color: rgba(255,255,255,.5);
     text-align: center;
+}
+li.actived a{
+    color: #dce9eb;
+    font-weight: bold;
 }
 .race-pic{
     align-items: center;
@@ -355,12 +361,12 @@ li.list-group-item{
     margin-left: 15px;
     white-space: normal;
     line-height: 0em;
-    padding: 0px;
     background-color: darkgoldenrod;
-    color: black;
+    color: #520705;
     border: 1px solid darkgoldenrod;
     font-size: small;
-    padding: 2px;
+    padding: 3px;
+    padding-top: 2px;
     font-weight: bold;
     height: 15px;
 }
@@ -368,11 +374,16 @@ li.list-group-item{
     background-color: #C4910B;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(184, 134, 11, 0.6);
 }
+#cD{
+    margin-top: 0px;
+}
 
 /* res-table */
 .res-table{
     padding: 10px;
-
+    /*border: 1px solid darkgoldenrod;*/
+    border-radius: 5px 5px;
+   /* background-color: rgb(0, 0, 62);*/
     margin: 10px;
    /* border: 1px solid #888888;*/
    /* border-radius: 5px 5px;*/

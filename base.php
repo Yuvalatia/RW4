@@ -51,6 +51,7 @@ include ('userHeader.php');
         </div>
     </div>
 <hr>
+<h1 id="pageBanner">Base</h1>
 <div class="row info-table">
     <div class="col-md-3 tStat">
         <table>
@@ -70,7 +71,7 @@ include ('userHeader.php');
                 <td class="stat-name">Rank</td>
             </tr>
             <tr>
-                <td><?php echo "?" ?></td>
+                <td><?php if($_SESSION['userRank'] == 0){echo "-";}else{echo $_SESSION['userRank'];}?></td>
             </tr>
         </table>
     </div>
@@ -81,7 +82,8 @@ include ('userHeader.php');
                 <td class="stat-name">Clan</td>
             </tr>
             <tr>
-                <td><?php echo "none" ?></td>
+                <td><?php if($_SESSION['userClan'] == 0){echo "-";}else{echo $_SESSION['userClan
+                '];}?></td>
             </tr>
         </table>
     </div>
@@ -172,7 +174,7 @@ include ('userHeader.php');
                 <td class="stat-name">General power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userGeneralPower']; ?></td>
+                <td><?php echo $_SESSION['userGeneral']; ?></td>
             </tr>
         </table>
     </div>
@@ -194,7 +196,7 @@ include ('userHeader.php');
                 <td class="stat-name">Dragons</td>
             </tr>
             <tr>
-                <td><?php echo "?" ?></td>
+                <td><?php echo $_SESSION['userDragons']; ?></td>
             </tr>
         </table>
     </div>
@@ -216,10 +218,10 @@ include ('userHeader.php');
                             <td class="stat-name">Diamonds</td>
                         </tr>
                         <tr>
-                            <td><?php echo "0" ?></td>
+                            <td><?php echo $_SESSION['userDiamonds']; ?></td>
                         </tr>
                     </table>
-                    <button id="diamond-btn" class="btn btn-xs">Diamond shop</button>
+                    <button id="diamond-btn" class="btn btn-xs">Diamond Store</button>
                 </div>
             </div>
 

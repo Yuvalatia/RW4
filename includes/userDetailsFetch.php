@@ -16,16 +16,19 @@
     $_SESSION['userLastName'] = $row['userLastName'];
     $_SESSION['userEmail']    = $row['userEmail'];
     $_SESSION['userPass']     = $row['userPass'];
+    $_SESSION['userRank']     = $row['userRank'];
+    $_SESSION['userClan']     = $row['userClan'];
 
     // USER RESOURCES INFO
     $sql     = "SELECT * FROM resources WHERE userId = '$user_id'";
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['userGold']  = $row['userGold'];
-    $_SESSION['userWood']  = $row['userWood'];
-    $_SESSION['userOre']   = $row['userOre'];
-    $_SESSION['userTurns'] = $row['userTurns'];
+    $_SESSION['userGold']     = $row['userGold'];
+    $_SESSION['userWood']     = $row['userWood'];
+    $_SESSION['userOre']      = $row['userOre'];
+    $_SESSION['userTurns']    = $row['userTurns'];
+    $_SESSION['userDiamonds'] = $row['userDiamonds'];
 
     // USER UNITS INFO
     $sql     = "SELECT * FROM units WHERE userId = '$user_id'";
@@ -38,6 +41,7 @@
     $_SESSION['userIntlg']    = $row['userIntlg'];
     $_SESSION['userSpy']      = $row['userSpy'];
     $_SESSION['userExp']      = $row['userExp'];
+    $_SESSION['userDragons']  = $row['userDragons'];
 
     // USER WEAPONDS INFO
     $sql     = "SELECT * FROM weaponds WHERE userId = '$user_id'";
@@ -63,9 +67,8 @@
     $_SESSION['userWizdom']     = $row['userWizdom'];
     $_SESSION['userSpying']     = $row['userSpying'];
     $_SESSION['userSight']      = $row['userSight'];
+    $_SESSION['userGeneral']    = $row['userGeneral'];
 
-    // Calculate General Power
-    $_SESSION['userGeneralPower'] = ($_SESSION['userAtt'] + $_SESSION['userDef'] + $_SESSION['userSpying'] + $_SESSION['userSight']) /4;
 
 
 

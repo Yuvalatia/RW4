@@ -56,15 +56,60 @@ exit();
                 </div>
                 <div class="col-sm-12">
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="base.php">Base</a></li>
-                        <li class="list-group-item"><a href="base.php">Attack</a></li>
-                        <li class="list-group-item"><a href="base.php">Clan</a></li>
-                        <li class="list-group-item"><a href="base.php">Training</a></li>
-                        <li class="list-group-item"><a href="base.php">Hero</a></li>
-                        <li class="list-group-item"><a href="base.php">Developing</a></li>
-                        <li class="list-group-item"><a href="base.php">Store</a></li>
-                        <li class="list-group-item"><a href="base.php">Bank</a></li>
-                        <li class="list-group-item"><a href="base.php">History</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Base"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Base</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Attack"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Attack</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Clan"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Clan</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Training"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Training</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Hero"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Hero</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Developing"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Developing</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Store"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Store</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "Bank"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">Bank</a></li>
+                        <li class="list-group-item <?php
+                        // active link
+                        if($TITLE == "History"){
+                            echo "actived";
+                        }
+                        ?>"><a href="base.php">History</a></li>
 
                     </ul>
                 </div>
