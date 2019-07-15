@@ -56,6 +56,10 @@
     $_SESSION['wDef2']  = $row['wDef2'];
     $_SESSION['wDef3']  = $row['wDef3'];
     $_SESSION['wDef4']  = $row['wDef4'];
+    $_SESSION['wSpy1']  = $row['wSpy1'];
+    $_SESSION['wSpy2']  = $row['wSpy2'];
+    $_SESSION['wExp1']  = $row['wExp1'];
+    $_SESSION['wExp2']  = $row['wExp2'];
 
     // USER POWERS INFO
     $sql     = "SELECT * FROM powers WHERE userId = '$user_id'";

@@ -50,8 +50,8 @@
         $hashedPass = password_hash($password, PASSWORD_DEFAULT);
 
         // Making sql query to enter user info into dataBase
-        $sql="INSERT INTO users (userArmy, userRace, userName, userLastName, userEmail, userPass)
-              VALUES ('$username', '$race', '$firstname', '$lastname', '$email', '$hashedPass')";
+        $sql="INSERT INTO users (userArmy, userRace, userName, userLastName, userEmail, userRank, userClan, userPass)
+              VALUES ('$username', '$race', '$firstname', '$lastname', '$email', '0', '0', '$hashedPass')";
 
         //
         if(mysqli_query($conn,$sql)){

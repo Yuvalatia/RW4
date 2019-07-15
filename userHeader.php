@@ -79,7 +79,7 @@ exit();
                         if($TITLE == "Training"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">Training</a></li>
+                        ?>"><a href="Training.php">Training</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "Hero"){
@@ -97,7 +97,7 @@ exit();
                         if($TITLE == "Store"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">Store</a></li>
+                        ?>"><a href="store.php">Store</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "Bank"){

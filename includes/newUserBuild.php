@@ -11,26 +11,26 @@
 
 
     //INSERT DEFAULT RESOURCES
-    $sql ="INSERT INTO resources (userId, userGold, userWood, userOre, userTurns)
-           VALUES ('$userId', '500', '300', '300', '100')";
+    $sql ="INSERT INTO resources (userId, userGold, userWood, userOre, userTurns, userDiamonds)
+           VALUES ('$userId', '500', '300', '300', '100', '0')";
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT UNITS
     // userUntrain	userWarriors	userWorkers	userIntlg	userSpy	userExp
-    $sql ="INSERT INTO units (userId, userUntrain, userWarriors, userWorkers, userIntlg, userSpy, userExp)
-           VALUES ('$userId', '120', '0', '0', '0', '0', '0')";
+    $sql ="INSERT INTO units (userId, userUntrain, userWarriors, userWorkers, userIntlg, userSpy, userExp, userDragons)
+           VALUES ('$userId', '120', '0', '0', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT POWERS
     // userId	userAtt	userDef	userWizdom	userSpying	userSight
-    $sql ="INSERT INTO powers (userId, userAtt, userDef, userWizdom, userSpying, userSight)
-           VALUES ('$userId', '0', '0', '0', '0', '0')";
+    $sql ="INSERT INTO powers (userId, userAtt, userDef, userWizdom, userSpying, userSight, userGeneral)
+           VALUES ('$userId', '0', '0', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT WEAPONDS
     // userId	wAtt1	wAtt2	wAtt3	wAtt4	wDef1	wDef2	wDef3	wDef4
-    $sql ="INSERT INTO weaponds (userId, wAtt1, wAtt2, wAtt3, wAtt4, wDef1, wDef2, wDef3, wDef4)
-               VALUES ('$userId', '0', '0', '0', '0', '0', '0', '0', '0')";
+    $sql ="INSERT INTO weaponds (userId, wAtt1, wAtt2, wAtt3, wAtt4, wDef1, wDef2, wDef3, wDef4, wSpy1, wSpy2, wExp1, wExp2)
+               VALUES ('$userId', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 
 
