@@ -29,7 +29,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wExp1']; ?></td>
+            <td><?php echo $wExp1; ?></td>
             <td id="amountInput"><input type="text" name="wExp1Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -51,7 +51,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wExp2']; ?></td>
+            <td><?php echo $wExp2; ?></td>
             <td id="amountInput"><input type="text" name="wExp2Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>

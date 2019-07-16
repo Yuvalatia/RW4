@@ -10,68 +10,84 @@
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['userArmy']     = $row['userArmy'];
-    $_SESSION['userRace']     = $row['userRace'];
-    $_SESSION['userName']     = $row['userName'];
-    $_SESSION['userLastName'] = $row['userLastName'];
-    $_SESSION['userEmail']    = $row['userEmail'];
-    $_SESSION['userPass']     = $row['userPass'];
-    $_SESSION['userRank']     = $row['userRank'];
-    $_SESSION['userClan']     = $row['userClan'];
+    $userArmy     = $row['userArmy'];
+    $userRace     = $row['userRace'];
+    $_userName    = $row['userName'];
+    $userLastName = $row['userLastName'];
+    $userEmail    = $row['userEmail'];
+    $userPass     = $row['userPass'];
+    $userRank     = $row['userRank'];
+    $userClan     = $row['userClan'];
 
     // USER RESOURCES INFO
     $sql     = "SELECT * FROM resources WHERE userId = '$user_id'";
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['userGold']     = $row['userGold'];
-    $_SESSION['userWood']     = $row['userWood'];
-    $_SESSION['userOre']      = $row['userOre'];
-    $_SESSION['userTurns']    = $row['userTurns'];
-    $_SESSION['userDiamonds'] = $row['userDiamonds'];
+    $userGold     = $row['userGold'];
+    $userWood     = $row['userWood'];
+    $userOre      = $row['userOre'];
+    $userTurns    = $row['userTurns'];
+    $userDiamonds = $row['userDiamonds'];
 
     // USER UNITS INFO
     $sql     = "SELECT * FROM units WHERE userId = '$user_id'";
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['userUntrain']  = $row['userUntrain'];
-    $_SESSION['userWarriors'] = $row['userWarriors'];
-    $_SESSION['userWorkers']  = $row['userWorkers'];
-    $_SESSION['userIntlg']    = $row['userIntlg'];
-    $_SESSION['userSpy']      = $row['userSpy'];
-    $_SESSION['userExp']      = $row['userExp'];
-    $_SESSION['userDragons']  = $row['userDragons'];
+    $userUntrain  = $row['userUntrain'];
+    $userWarriors = $row['userWarriors'];
+    $userWorkers  = $row['userWorkers'];
+    $userIntlg    = $row['userIntlg'];
+    $userSpy      = $row['userSpy'];
+    $userExp      = $row['userExp'];
+    $userDragons  = $row['userDragons'];
 
     // USER WEAPONDS INFO
     $sql     = "SELECT * FROM weaponds WHERE userId = '$user_id'";
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['wAtt1']  = $row['wAtt1'];
-    $_SESSION['wAtt2']  = $row['wAtt2'];
-    $_SESSION['wAtt3']  = $row['wAtt3'];
-    $_SESSION['wAtt4']  = $row['wAtt4'];
-    $_SESSION['wDef1']  = $row['wDef1'];
-    $_SESSION['wDef2']  = $row['wDef2'];
-    $_SESSION['wDef3']  = $row['wDef3'];
-    $_SESSION['wDef4']  = $row['wDef4'];
-    $_SESSION['wSpy1']  = $row['wSpy1'];
-    $_SESSION['wSpy2']  = $row['wSpy2'];
-    $_SESSION['wExp1']  = $row['wExp1'];
-    $_SESSION['wExp2']  = $row['wExp2'];
+    $wAtt1  = $row['wAtt1'];
+    $wAtt2  = $row['wAtt2'];
+    $wAtt3  = $row['wAtt3'];
+    $wAtt4  = $row['wAtt4'];
+    $wDef1  = $row['wDef1'];
+    $wDef2  = $row['wDef2'];
+    $wDef3  = $row['wDef3'];
+    $wDef4  = $row['wDef4'];
+    $wSpy1  = $row['wSpy1'];
+    $wSpy2  = $row['wSpy2'];
+    $wExp1  = $row['wExp1'];
+    $wExp2  = $row['wExp2'];
 
     // USER POWERS INFO
     $sql     = "SELECT * FROM powers WHERE userId = '$user_id'";
     $results = mysqli_query($conn,$sql);
     $row     = mysqli_fetch_assoc($results);
 
-    $_SESSION['userAtt']        = $row['userAtt'];
-    $_SESSION['userDef']        = $row['userDef'];
-    $_SESSION['userWizdom']     = $row['userWizdom'];
-    $_SESSION['userSpying']     = $row['userSpying'];
-    $_SESSION['userSight']      = $row['userSight'];
-    $_SESSION['userGeneral']    = $row['userGeneral'];
+    $userAtt        = $row['userAtt'];
+    $userDef        = $row['userDef'];
+    $userWizdom     = $row['userWizdom'];
+    $userSpying     = $row['userSpying'];
+    $userSight      = $row['userSight'];
+    $userGeneral    = $row['userGeneral'];
+
+    // USER UPGRADES INFO
+    $sql     = "SELECT * FROM upgrades WHERE userId = '$user_id'";
+    $results = mysqli_query($conn,$sql);
+    $row     = mysqli_fetch_assoc($results);
+
+    $goldUpgrade           = $row['goldUpgrade'];
+    $woodUpgrade           = $row['woodUpgrade'];
+    $oreUpgrade            = $row['oreUpgrade'];
+    $turnsUpgrade          = $row['turnsUpgrade'];
+    $attUpgrade            = $row['attUpgrade'];
+    $defUpgrade            = $row['defUpgrade'];
+    $spyUpgrade            = $row['spyUpgrade'];
+    $expUpgrade            = $row['expUpgrade'];
+    $wizdomUpgrade         = $row['wizdomUpgrade'];
+    $dragonsUpgrade        = $row['dragonsUpgrade'];
 
 
 

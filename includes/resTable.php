@@ -6,7 +6,7 @@
                 <td class="stat-name">Gold</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userGold']; ?></td>
+                <td><?php echo $userGold; ?></td>
             </tr>
         </table>
     </div>
@@ -17,7 +17,7 @@
                 <td class="stat-name">Wood</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userWood']; ?></td>
+                <td><?php echo $userWood; ?></td>
             </tr>
         </table>
     </div>
@@ -28,7 +28,7 @@
                 <td class="stat-name">Ore</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userOre']; ?></td>
+                <td><?php echo $userOre; ?></td>
             </tr>
         </table>
     </div>
@@ -39,7 +39,7 @@
                 <td class="stat-name">Turns</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userTurns']; ?></td>
+                <td><?php echo $userTurns; ?></td>
             </tr>
         </table>
     </div>

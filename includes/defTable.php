@@ -29,7 +29,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wDef1']; ?></td>
+            <td><?php echo $wDef1; ?></td>
             <td id="amountInput"><input type="text" name="wDef1Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -51,7 +51,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wDef2']; ?></td>
+            <td><?php echo $wDef2; ?></td>
             <td id="amountInput"><input type="text" name="wDef2Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -73,7 +73,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wDef3']; ?></td>
+            <td><?php echo $wDef3; ?></td>
             <td id="amountInput"><input type="text" name="wDef3Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -95,7 +95,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wDef4']; ?></td>
+            <td><?php echo $wDef4; ?></td>
             <td id="amountInput"><input type="text" name="wDef4Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>

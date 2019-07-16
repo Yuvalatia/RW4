@@ -106,7 +106,7 @@
                 // IF ACCOUNT CONNECTED
                 ?>
                     <li class="nav-item">
-                       <a class="nav-link" href="base.php" id="armyNameTag" > <?php echo $_SESSION['userArmy']; ?></a>
+                       <a class="nav-link" href="base.php" id="armyNameTag" > <?php echo $userArmy; ?></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="includes/logout.php" ><i class="fas fa-sign-out-alt"></i> Logout</a>

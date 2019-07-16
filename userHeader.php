@@ -12,7 +12,7 @@ exit();
     <div class="col-md-3">
         <div class="container player-menu <?php
         // RACE MENU
-        switch ($_SESSION['userRace']){
+        switch ($userRace){
             case 0 : echo "orc"; break;
             case 1 : echo "human"; break;
             case 2 : echo "elf"; break;
@@ -24,7 +24,7 @@ exit();
 
                     <div class="<?php
                     // RACE PIC
-                    switch ($_SESSION['userRace']){
+                    switch ($userRace){
                         case 0 : echo "orc"; break;
                         case 1 : echo "human"; break;
                         case 2 : echo "elf"; break;
@@ -37,7 +37,7 @@ exit();
                 </div>
                 <div class="col-sm-12 <?php
                 // RACE TITLE
-                switch ($_SESSION['userRace']){
+                switch ($userRace){
                     case 0 : echo "orc"; break;
                     case 1 : echo "human"; break;
                     case 2 : echo "elf"; break;
@@ -45,7 +45,7 @@ exit();
                 }
                 ?>-title">
                     <?php
-                    switch ($_SESSION['userRace']){
+                    switch ($userRace){
                         case 0 : echo "For The Horde !!"; break;
                         case 1 : echo "Humanity Shall Not Fall !"; break;
                         case 2 : echo "The Nature is RestLess"; break;

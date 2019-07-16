@@ -16,7 +16,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Army</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userArmy']; ?></td>
+                <td><?php echo $userArmy; ?></td>
             </tr>
         </table>
     </div>
@@ -27,7 +27,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Rank</td>
             </tr>
             <tr>
-                <td><?php if($_SESSION['userRank'] == 0){echo "-";}else{echo $_SESSION['userRank'];}?></td>
+                <td><?php if($userRank == 0){echo "-";}else{echo $userRank;}?></td>
             </tr>
         </table>
     </div>
@@ -38,8 +38,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Clan</td>
             </tr>
             <tr>
-                <td><?php if($_SESSION['userClan'] == 0){echo "-";}else{echo $_SESSION['userClan
-                '];}?></td>
+                <td><?php if($userClan == 0){echo "-";}else{echo $userClan;}?></td>
             </tr>
         </table>
     </div>
@@ -50,7 +49,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Race</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userRace']; ?></td>
+                <td><?php echo $userRace; ?></td>
             </tr>
         </table>
     </div>
@@ -64,7 +63,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Attack Power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userAtt']; ?></td>
+                <td><?php echo $userAtt; ?></td>
             </tr>
         </table>
     </div>
@@ -75,7 +74,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Spying Power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userSpying']; ?></td>
+                <td><?php echo $userSpying; ?></td>
             </tr>
         </table>
     </div>
@@ -86,7 +85,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Warriors</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userWarriors']; ?></td>
+                <td><?php echo $userWarriors; ?></td>
             </tr>
         </table>
     </div>
@@ -97,7 +96,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Defence Power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userDef']; ?></td>
+                <td><?php echo $userDef; ?></td>
             </tr>
         </table>
     </div>
@@ -108,7 +107,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Sight Power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userSight']; ?></td>
+                <td><?php echo $userSight; ?></td>
             </tr>
         </table>
     </div>
@@ -119,7 +118,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Workers</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userWorkers']; ?></td>
+                <td><?php echo $userWorkers; ?></td>
             </tr>
         </table>
     </div>
@@ -130,7 +129,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">General power</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userGeneral']; ?></td>
+                <td><?php echo $userGeneral; ?></td>
             </tr>
         </table>
     </div>
@@ -141,7 +140,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Wisdom Points</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userWizdom']; ?></td>
+                <td><?php echo $userWizdom; ?></td>
             </tr>
         </table>
     </div>
@@ -152,7 +151,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Dragons</td>
             </tr>
             <tr>
-                <td><?php echo $_SESSION['userDragons']; ?></td>
+                <td><?php echo $userDragons; ?></td>
             </tr>
         </table>
     </div>
@@ -165,7 +164,7 @@ require ('includes/resTable.php');
                     <span class="ref-text">Your referral link:</span><br>
                     <small>* each referral reward you 10 turns + 10 diamonds.</small>
                     <input type="text" class="form-control" id="ref" name="ref"
-                    value="http://www.rw4.com/register?refCode=???">
+                    value="http://www.rw4.com/register?refCode=<?php echo $_SESSION['userId']; ?>">
                 </div>
                 <div class="col-sm-4 tStat diamonds">
                     <table>
@@ -174,7 +173,7 @@ require ('includes/resTable.php');
                             <td class="stat-name">Diamonds</td>
                         </tr>
                         <tr>
-                            <td><?php echo $_SESSION['userDiamonds']; ?></td>
+                            <td><?php echo $userDiamonds; ?></td>
                         </tr>
                     </table>
                     <button id="diamond-btn" class="btn btn-xs">Diamond Store</button>

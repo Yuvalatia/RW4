@@ -29,7 +29,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wAtt1']; ?></td>
+            <td><?php echo $wAtt1; ?></td>
             <td id="amountInput"><input type="text" name="wAtt1Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -51,7 +51,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wAtt2']; ?></td>
+            <td><?php echo $wAtt2; ?></td>
             <td id="amountInput"><input type="text" name="wAtt2Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -73,7 +73,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wAtt3']; ?></td>
+            <td><?php echo $wAtt3; ?></td>
             <td id="amountInput"><input type="text" name="wAtt3Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
@@ -95,7 +95,7 @@
                     </tr>
                 </table>
             </td>
-            <td><?php echo $_SESSION['wAtt4']; ?></td>
+            <td><?php echo $wAtt4; ?></td>
             <td id="amountInput"><input type="text" name="wAtt4Count" class="form-control store-input" value="0"></td>
         </tr>
     </table>
