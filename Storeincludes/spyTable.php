@@ -1,5 +1,5 @@
 <!-- Spy Weaponds -->
-<form action="store.php" method="POST" autocomplete="off">
+<form name="spyForm" action="store.php" method="POST" onsubmit="return spyFormVal()" autocomplete="off">
     <table class="store-table">
         <tr>
             <div class="row">

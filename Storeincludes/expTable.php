@@ -1,5 +1,5 @@
 <!-- Exp Weaponds -->
-<form action="store.php" method="POST" autocomplete="off">
+<form name="expForm" action="store.php" method="POST" onsubmit="return expFormVal()" autocomplete="off">
     <table class="store-table">
         <tr>
             <div class="row">

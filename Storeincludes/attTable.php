@@ -1,5 +1,5 @@
 <!-- Att Weaponds -->
-<form action="store.php" method="POST" autocomplete="off">
+<form name="attForm" action="store.php" method="POST" onsubmit="return attFormVal()" autocomplete="off">
     <table class="store-table">
         <tr>
             <div class="row">

@@ -1,5 +1,5 @@
 <!-- Def Weaponds -->
-<form action="store.php" method="POST" autocomplete="off">
+<form name="defForm" action="store.php" method="POST" onsubmit="return defFormVal()" autocomplete="off">
     <table class="store-table">
         <tr>
             <div class="row">
