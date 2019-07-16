@@ -9,10 +9,10 @@ require ('includes/resTable.php');
 <h1 id="pageBanner">Store</h1>
 
 <?php
-    require ('includes/attTable.php');
-    require ('includes/defTable.php');
-    require ('includes/spyTable.php');
-    require ('includes/expTable.php');
+    require('Storeincludes/attTable.php');
+    require('Storeincludes/defTable.php');
+    require('Storeincludes/spyTable.php');
+    require('Storeincludes/expTable.php');
 ?>
 
 

@@ -34,8 +34,8 @@
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT UPGRADES
-    //userId	goldUpgrade	woodUpgrade	oreUpgrade	turnsUpgrade	attUpgrade	defUpgrade	spyUpgrade	expUpgrade	wizdomUprade	dragonsUpgrade
-    $sql ="INSERT INTO upgrades (userId, goldUpgrade, woodUpgrade, oreUpgrade, turnsUpgrade, attUpgrade, defUpgrade, spyUpgrade, expUpgrade, wizdomUprade, dragonsUpgrade)
+    //userId	goldUpgrade	woodUpgrade	oreUpgrade	turnsUpgrade	attUpgrade	defUpgrade	spyUpgrade	expUpgrade	wizdomUpgrade	dragonsUpgrade
+    $sql ="INSERT INTO upgrades (userId, goldUpgrade, woodUpgrade, oreUpgrade, turnsUpgrade, attUpgrade, defUpgrade, spyUpgrade, expUpgrade, wizdomUpgrade, dragonsUpgrade)
                    VALUES ('$userId', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 

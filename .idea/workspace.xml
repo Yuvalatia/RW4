@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cbe3c0-4ed9-4a22-8954-b50337931772" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/attTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/attTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/defTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/defTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/expTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/expTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/resTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/resTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/spyTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/spyTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/userDetailsFetch.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/userDetailsFetch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/userHeader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/attTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/attTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/defTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/defTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/expTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/expTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/newUserBuild.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/newUserBuild.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/spyTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/spyTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/store.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/expTable.php">
+        <entry file="file://$PROJECT_DIR$/Storeincludes/expTable.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
@@ -39,7 +38,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/defTable.php">
+        <entry file="file://$PROJECT_DIR$/Storeincludes/defTable.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
@@ -65,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/newUserBuild.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="372">
+              <caret line="36" column="125" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
             </state>
           </provider>
         </entry>
@@ -78,34 +77,34 @@
         <entry file="file://$PROJECT_DIR$/includes/dbh.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/attTable.php">
+        <entry file="file://$PROJECT_DIR$/Storeincludes/attTable.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/resTable.php">
+        <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="-1254">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -140,9 +139,7 @@
         <option value="$PROJECT_DIR$/includes/register-inc.php" />
         <option value="$PROJECT_DIR$/Store.php" />
         <option value="$PROJECT_DIR$/Training.php" />
-        <option value="$PROJECT_DIR$/store.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/includes/newUserBuild.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/base.php" />
         <option value="$PROJECT_DIR$/includes/resTable.php" />
@@ -152,13 +149,15 @@
         <option value="$PROJECT_DIR$/includes/attTable.php" />
         <option value="$PROJECT_DIR$/includes/defTable.php" />
         <option value="$PROJECT_DIR$/includes/userDetailsFetch.php" />
+        <option value="$PROJECT_DIR$/store.php" />
+        <option value="$PROJECT_DIR$/includes/newUserBuild.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="620" />
     <option name="y" value="2" />
     <option name="width" value="1307" />
@@ -200,6 +199,11 @@
             <path>
               <item name="RW4" type="b2602c69:ProjectViewProjectNode" />
               <item name="RW4" type="462c0819:PsiDirectoryNode" />
+              <item name="Storeincludes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RW4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RW4" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,6 +221,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RW4\Storeincludes" />
       <recent name="C:\xampp\htdocs\RW4\scripts" />
     </key>
   </component>
@@ -247,18 +252,18 @@
       <workItem from="1559743421254" duration="29536000" />
       <workItem from="1561109091370" duration="15971000" />
       <workItem from="1561970947158" duration="15078000" />
-      <workItem from="1562940991693" duration="76616000" />
+      <workItem from="1562940991693" duration="77188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171118000" />
+    <option name="totallyTimeSpent" value="171690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="2" width="1045" height="823" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18071066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119463086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,13 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -393,7 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/spyTable.php">
+    <entry file="file://$PROJECT_DIR$/Storeincludes/spyTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-244">
           <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
@@ -414,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/newUserBuild.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -435,7 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/expTable.php">
+    <entry file="file://$PROJECT_DIR$/Storeincludes/expTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
@@ -445,28 +436,42 @@
     <entry file="file://$PROJECT_DIR$/includes/dbh.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/attTable.php">
+    <entry file="file://$PROJECT_DIR$/Storeincludes/attTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/defTable.php">
+    <entry file="file://$PROJECT_DIR$/Storeincludes/defTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="-1254">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/newUserBuild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="125" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
         </state>
       </provider>
     </entry>
