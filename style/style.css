@@ -473,6 +473,32 @@ li.actived a{
     margin-right: auto;
     margin-left: auto;
 }
+@media (min-width: 320px) and (max-width: 800px) {
+    .weapond-pic{
+        width: 60px;
+        height: 60px;
+    }
+    .store-table{
+        font-size: small;
+        text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .store-table td,th{
+        padding: 2px 10px;
+        text-align: center;
+        width: 20%;
+
+    }
+    .store-input{
+        width: 60px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 .price-table td{
     padding: 0px;
     margin: 0px;
