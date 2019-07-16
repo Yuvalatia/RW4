@@ -14,18 +14,18 @@
     <!-- wAtt1 -->
     <table class="store-table watt-table">
         <tr>
-            <td>Iron Sword<br><img class="price-icon" src="icons/strength.png" alt="strength">10</td>
+            <td>Iron Sword<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s1; ?></td>
             <td><img class="weapond-pic" src="weaponds/wAtt1.png" alt="Iron Sword"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>500</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w1['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>300</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w1['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>300</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w1['ore']; ?></td>
                     </tr>
                 </table>
             </td>
@@ -36,18 +36,18 @@
     <!-- wAtt2 -->
     <table class="store-table watt-table">
         <tr>
-            <td>Moonlit Sword<br><img class="price-icon" src="icons/strength.png" alt="strength">80</td>
+            <td>Moonlit Sword<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s2; ?></td>
             <td><img class="weapond-pic" src="weaponds/wAtt2.png" alt="Moonlit Sword"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>2500</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w2['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>1600</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w2['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>1600</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w2['ore']; ?></td>
                     </tr>
                 </table>
             </td>
@@ -58,18 +58,18 @@
     <!-- wAtt3 -->
     <table class="store-table watt-table">
         <tr>
-            <td>Ice Breaker<br><img class="price-icon" src="icons/strength.png" alt="strength">450</td>
+            <td>Ice Breaker<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s3; ?></td>
             <td><img class="weapond-pic" src="weaponds/wAtt3.png" alt="Ice Breaker"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>12500</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w3['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>6800</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w3['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>6800</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w3['ore']; ?></td>
                     </tr>
                 </table>
             </td>
@@ -80,18 +80,18 @@
     <!-- wAtt4 -->
     <table class="store-table watt-table">
         <tr>
-            <td>Flaming Blade<br><img class="price-icon" src="icons/strength.png" alt="strength">2000</td>
+            <td>Flaming Blade<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s4; ?></td>
             <td><img class="weapond-pic" src="weaponds/wAtt4.png" alt="Flaming Blade"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>50000</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w4['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>26000</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w4['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>26000</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w4['ore']; ?></td>
                     </tr>
                 </table>
             </td>

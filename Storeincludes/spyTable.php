@@ -14,18 +14,18 @@
     <!-- wSpy1 -->
     <table class="store-table wspy-table">
         <tr>
-            <td>Throwing Knives<br><img class="price-icon" src="icons/strength.png" alt="strength">450</td>
+            <td>Throwing Knives<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s3; ?></td>
             <td><img class="weapond-pic" src="weaponds/wSpy1.png" alt="Throwing Knives"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>12500</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w3['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>6800</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w3['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>6800</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w3['ore']; ?></td>
                     </tr>
                 </table>
             </td>
@@ -36,18 +36,18 @@
     <!-- wSpy2 -->
     <table class="store-table wspy-table">
         <tr>
-            <td>Ninja Knives<br><img class="price-icon" src="icons/strength.png" alt="strength">2000</td>
+            <td>Ninja Knives<br><img class="price-icon" src="icons/strength.png" alt="strength"><?php echo $s4; ?></td>
             <td><img class="weapond-pic" src="weaponds/wSpy2.png" alt="Ninja Knives"></td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td>50000</td>
+                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $w4['gold']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td>26000</td>
+                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td><td><?php echo $w4['wood']; ?></td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td>26000</td>
+                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td><td><?php echo $w4['ore']; ?></td>
                     </tr>
                 </table>
             </td>
