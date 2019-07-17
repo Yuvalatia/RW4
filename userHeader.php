@@ -79,7 +79,7 @@ exit();
                         if($TITLE == "Training"){
                             echo "actived";
                         }
-                        ?>"><a href="Training.php">Training</a></li>
+                        ?>"><a href="train.php">Training</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "Hero"){

@@ -552,3 +552,13 @@ li.actived a{
     border-style: hidden; /* hide standard table (collapsed) border */
     box-shadow: 0 0 0 1px darkgoldenrod; /* this draws the table border  */
 }
+/* wExp Table */
+.train-table{
+    /*border: 1px solid darkgoldenrod;
+    border-radius: 5px 5px;*/
+    background-color: rgb(24, 23, 27););
+    border-collapse: collapse;
+    border-radius: 5px 5px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px darkgoldenrod; /* this draws the table border  */
+}

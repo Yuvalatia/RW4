@@ -23,4 +23,12 @@
     //w4
     $s4 = 2000;
 
+
+    // UNITS PRICE STATS
+    $warriorPrice = 50;
+    $workerPrice  = 20;
+    $intlgPrice   = 100;
+    $spyPrice     = 60;
+    $expPrice     = 30;
+
 ?>

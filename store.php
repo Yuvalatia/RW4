@@ -23,7 +23,7 @@ require ('includes/resTable.php');
 ?>
 
 
-<!-- Javascript for register -->
+<!-- Javascript for store -->
 <script src="scripts/store.js"></script>
 
 <?php
