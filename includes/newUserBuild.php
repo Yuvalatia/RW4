@@ -12,7 +12,7 @@
 
     //INSERT DEFAULT RESOURCES
     $sql ="INSERT INTO resources (userId, userGold, userWood, userOre, userTurns, userDiamonds)
-           VALUES ('$userId', '500', '300', '300', '100', '0')";
+           VALUES ('$userId', '2500', '1000', '1000', '100', '0')";
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT UNITS

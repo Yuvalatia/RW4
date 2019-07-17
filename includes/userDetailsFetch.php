@@ -90,6 +90,9 @@
     $dragonsUpgrade        = $row['dragonsUpgrade'];
 
 
+    // USER CALC STATS
+    require ('userCalcStats.php');
+
 
 
 

@@ -4,7 +4,7 @@
         <tr>
             <div class="row">
                 <div class="col-sm-2"><th>Name</th></div>
-                <div class="col-sm-4"><th>Weapond</th></div>
+                <div class="col-sm-4"><th>Weapon</th></div>
                 <div class="col-sm-2"><th>Price</th></div>
                 <div class="col-sm-2"><th>Owned</th></div>
                 <div class="col-sm-2"><th>Amount</th></div>

@@ -28,6 +28,15 @@ body {
     text-align: center;
     
 }
+/* alerts */
+.alert{
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 450px;
+    z-index: 1;
+}
+
 #botm a:hover {
     text-decoration: none;
 }

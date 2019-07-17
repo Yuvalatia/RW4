@@ -1,6 +1,11 @@
 <?php
     session_start();
 
+    // ALERTS INCLUDE
+    require ('includes/alerts.php');
+    // GAME STATS
+    require ('includes/gameStats.php');
+
     if(isset($_SESSION['userId'])) {
     // FETCH USER DETAILS
         require('includes/userDetailsFetch.php');
