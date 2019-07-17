@@ -1,6 +1,4 @@
 <?php
-// Store Price Stat
-require ('Storeincludes/priceStats.php');
 
 // Start Calc
 if(isset($_POST['submitAtt'])){
