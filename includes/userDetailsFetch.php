@@ -88,6 +88,7 @@
     $expUpgrade            = $row['expUpgrade'];
     $wizdomUpgrade         = $row['wizdomUpgrade'];
     $dragonsUpgrade        = $row['dragonsUpgrade'];
+    $untrainedUpgrade      = $row['untrainedUpgrade'];
 
 
     // USER CALC STATS

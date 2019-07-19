@@ -1,7 +1,7 @@
 <!-- untrain -->
 <table class="store-table">
     <tr>
-        <td><strong>UnTrained units: </strong></td>
+        <td><strong>Untrained units: </strong></td>
         <td>
             <img class="price-icon" src="icons/untrain.png" alt="untrain"> <?php echo $userUntrain; ?>
         </td>

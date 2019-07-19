@@ -88,10 +88,10 @@ exit();
                         ?>"><a href="base.php">Hero</a></li>
                         <li class="list-group-item <?php
                         // active link
-                        if($TITLE == "Developing"){
+                        if($TITLE == "Upgrade"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">Developing</a></li>
+                        ?>"><a href="upgrade.php">Upgrade</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "Store"){

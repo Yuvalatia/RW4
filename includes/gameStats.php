@@ -31,4 +31,72 @@
     $spyPrice     = 60;
     $expPrice     = 30;
 
+
+    // UPGRADES
+
+    // RESOURCES UPGRADES LEVELS
+
+    // GOLD RECEIVED PER LEVEL
+    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>10],
+                    /*1:*/["goldCost"=>5000,"perUpdate"=>20],
+                    /*2:*/["goldCost"=>15000,"perUpdate"=>30],
+                    /*3:*/["goldCost"=>50000,"perUpdate"=>35],
+                    /*4:*/["goldCost"=>90000,"perUpdate"=>40],
+                    /*5:*/["goldCost"=>150000,"perUpdate"=>45],
+                    /*6:*/["goldCost"=>500000,"perUpdate"=>60],
+                    /*7:*/["goldCost"=>1000000,"perUpdate"=>70]];
+    // WOOD RECEIVED PER LEVEL
+    $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>10],
+        /*1:*/["woodCost"=>5000,"perUpdate"=>20],
+        /*2:*/["woodCost"=>15000,"perUpdate"=>30],
+        /*3:*/["woodCost"=>50000,"perUpdate"=>35],
+        /*4:*/["woodCost"=>90000,"perUpdate"=>40],
+        /*5:*/["woodCost"=>150000,"perUpdate"=>45],
+        /*6:*/["woodCost"=>500000,"perUpdate"=>60],
+        /*7:*/["woodCost"=>1000000,"perUpdate"=>70]];
+    // ORE RECEIVED PER LEVEL
+    $oreLevel = [/*0:*/["oreCost"=>0,"perUpdate"=>10],
+        /*1:*/["oreCost"=>5000,"perUpdate"=>20],
+        /*2:*/["oreCost"=>15000,"perUpdate"=>30],
+        /*3:*/["oreCost"=>50000,"perUpdate"=>35],
+        /*4:*/["oreCost"=>90000,"perUpdate"=>40],
+        /*5:*/["oreCost"=>150000,"perUpdate"=>45],
+        /*6:*/["oreCost"=>500000,"perUpdate"=>60],
+        /*7:*/["oreCost"=>1000000,"perUpdate"=>70]];
+    // TURNS RECEIVED PER LEVEL
+    $turnsLevel = [/*0:*/["turnsCost"=>0,"perUpdate"=>3],
+        /*1:*/["turnsCost"=>250,"perUpdate"=>4],
+        /*2:*/["turnsCost"=>800,"perUpdate"=>5],
+        /*3:*/["turnsCost"=>2000,"perUpdate"=>6]];
+
+    // UNTRAINED RECEIVED PER LEVEL
+    $untrainedLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>30],
+        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>40],
+        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>50],
+        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>60],
+        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>70],
+        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>80],
+        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>90],
+        /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>100]];
+    // POWER RECEIVED PER LEVEL
+    $powerLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>0],
+        /*1:*/["goldCost"=>2000,"perUpdate"=>0.1],
+        /*2:*/["goldCost"=>5000,"perUpdate"=>0.2],
+        /*3:*/["goldCost"=>10000,"perUpdate"=>0.3],
+        /*4:*/["goldCost"=>25000,"perUpdate"=>0.4],
+        /*5:*/["goldCost"=>100000,"perUpdate"=>0.5],
+        /*6:*/["goldCost"=>250000,"perUpdate"=>0.6],
+        /*7:*/["goldCost"=>500000,"perUpdate"=>0.7],
+        /*8:*/["goldCost"=>1000000,"perUpdate"=>0.8],
+        /*9:*/["goldCost"=>2500000,"perUpdate"=>0.9],
+        /*10:*/["goldCost"=>10000000,"perUpdate"=>1]];
+    // WIZDOM RECEIVED PER LEVEL
+    $wizdomLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>5],
+        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>7],
+        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>10],
+        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>12],
+        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>14],
+        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>18],
+        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>22],
+        /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>25]];
 ?>
