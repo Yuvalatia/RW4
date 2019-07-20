@@ -47,21 +47,21 @@
                     /*7:*/["goldCost"=>1000000,"perUpdate"=>70]];
     // WOOD RECEIVED PER LEVEL
     $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>10],
-        /*1:*/["woodCost"=>5000,"perUpdate"=>20],
-        /*2:*/["woodCost"=>15000,"perUpdate"=>30],
-        /*3:*/["woodCost"=>50000,"perUpdate"=>35],
-        /*4:*/["woodCost"=>90000,"perUpdate"=>40],
-        /*5:*/["woodCost"=>150000,"perUpdate"=>45],
-        /*6:*/["woodCost"=>500000,"perUpdate"=>60],
+        /*1:*/["woodCost"=>4000,"perUpdate"=>20],
+        /*2:*/["woodCost"=>10000,"perUpdate"=>30],
+        /*3:*/["woodCost"=>40000,"perUpdate"=>35],
+        /*4:*/["woodCost"=>80000,"perUpdate"=>40],
+        /*5:*/["woodCost"=>100000,"perUpdate"=>45],
+        /*6:*/["woodCost"=>250000,"perUpdate"=>60],
         /*7:*/["woodCost"=>1000000,"perUpdate"=>70]];
     // ORE RECEIVED PER LEVEL
     $oreLevel = [/*0:*/["oreCost"=>0,"perUpdate"=>10],
-        /*1:*/["oreCost"=>5000,"perUpdate"=>20],
-        /*2:*/["oreCost"=>15000,"perUpdate"=>30],
-        /*3:*/["oreCost"=>50000,"perUpdate"=>35],
-        /*4:*/["oreCost"=>90000,"perUpdate"=>40],
-        /*5:*/["oreCost"=>150000,"perUpdate"=>45],
-        /*6:*/["oreCost"=>500000,"perUpdate"=>60],
+        /*1:*/["oreCost"=>4000,"perUpdate"=>20],
+        /*2:*/["oreCost"=>10000,"perUpdate"=>30],
+        /*3:*/["oreCost"=>40000,"perUpdate"=>35],
+        /*4:*/["oreCost"=>80000,"perUpdate"=>40],
+        /*5:*/["oreCost"=>100000,"perUpdate"=>45],
+        /*6:*/["oreCost"=>250000,"perUpdate"=>60],
         /*7:*/["oreCost"=>1000000,"perUpdate"=>70]];
     // TURNS RECEIVED PER LEVEL
     $turnsLevel = [/*0:*/["turnsCost"=>0,"perUpdate"=>3],

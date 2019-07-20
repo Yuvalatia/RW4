@@ -1,9 +1,9 @@
 <?php
 
-    $attPresent = $attUpgrade * 0.1;
-    $defPresent = $defUpgrade * 0.1;
-    $spyPresent = $spyUpgrade * 0.1;
-    $expPresent = $expUpgrade * 0.1;
+    $attPresent = $powerLevel[$attUpgrade]['perUpdate'];
+    $defPresent = $powerLevel[$defUpgrade]['perUpdate'];
+    $spyPresent = $powerLevel[$spyUpgrade]['perUpdate'];
+    $expPresent = $powerLevel[$expUpgrade]['perUpdate'];
 
     $wAttPower  = ($wAtt1*$s1) + ($wAtt2*$s2) + ($wAtt3*$s3) + ($wAtt4*$s4);
     $wDefPower  = ($wDef1*$s1) + ($wDef2*$s2) + ($wDef3*$s3) + ($wDef4*$s4);

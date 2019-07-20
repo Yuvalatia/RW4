@@ -3,7 +3,7 @@ $TITLE = "Upgrade";
 include ('userHeader.php');
 
 // TRAIN CALC
-require ('Trainincludes/trainCalc.php');
+require ('Upgradeinclude/upgradeCalc.php');
 
 // RESOURCE TABLE ADDED
 require ('includes/resTable.php');
