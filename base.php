@@ -49,7 +49,7 @@ require ('includes/resTable.php');
                 <td class="stat-name">Race</td>
             </tr>
             <tr>
-                <td><?php echo $userRace; ?></td>
+                <td><?php echo race($userRace); ?></td>
             </tr>
         </table>
     </div>

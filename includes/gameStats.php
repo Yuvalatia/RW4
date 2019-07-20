@@ -28,8 +28,8 @@
     $warriorPrice = 50;
     $workerPrice  = 20;
     $intlgPrice   = 100;
-    $spyPrice     = 60;
-    $expPrice     = 30;
+    $spyPrice     = 80;
+    $expPrice     = 70;
 
 
     // UPGRADES
@@ -99,4 +99,28 @@
         /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>18],
         /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>22],
         /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>25]];
+
+
+    // ARMYS PER ATT PAGE
+    $armysInPage = 30;
+
+    // RACE DECODE FUNCTION
+    function race($race_id){
+        switch ($race_id) {
+            case 0:
+                return "Orc";
+        break;
+            case 1:
+                return "Human";
+        break;
+            case 2:
+                return "Elf";
+        break;
+            case 3:
+                return "Dead";
+        break;
+            default:
+                return "undefined";
+        }
+    }
 ?>

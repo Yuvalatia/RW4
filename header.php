@@ -1,4 +1,5 @@
 <?php
+ob_start();
     session_start();
 
     // ALERTS INCLUDE
@@ -30,7 +31,7 @@
       <div class="container">
       <div class="row">
           <div class="col-sm-12 text-center">
-                <img src="imgs/main_logo.png" alt="logo" id="logo">
+                <img src="imgs/main_logo_beta.png" alt="logo" id="logo">
           </div>
          
           </div>

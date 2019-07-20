@@ -67,7 +67,7 @@ exit();
                         if($TITLE == "Attack"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">Attack</a></li>
+                        ?>"><a href="attack.php?page=<?php echo (int)($userRank/$armysInPage); ?>">Attack</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "Clan"){
