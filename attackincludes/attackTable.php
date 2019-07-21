@@ -1,4 +1,4 @@
-<table class="table table-striped table-dark att-table">
+<table class="table table-striped table-dark att-table table-hover">
     <thead>
     <tr>
         <th scope="col"># Rank</th>

@@ -104,6 +104,18 @@
     // ARMYS PER ATT PAGE
     $armysInPage = 30;
 
+    // actions turns costs
+    $attCost    = 10;
+    $spyCost    = 2;
+    $dragonCost = 50;
+
+    // WON STATS GAIN
+    $goldEarnd    = 0.01*rand(20,40);
+    $woodEarnd    = 0.01*rand(20,30);
+    $oreEarnd    = 0.01*rand(20,30);
+    $warriorsLost = 0.01*rand(5,15);
+
+
     // RACE DECODE FUNCTION
     function race($race_id){
         switch ($race_id) {

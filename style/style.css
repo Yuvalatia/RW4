@@ -29,6 +29,20 @@ body {
     text-align: center;
     
 }
+#BannerGreen{
+     text-shadow: 0 0 3px Green;
+     color: Green;
+     padding: 5px;
+     text-align: center;
+
+ }
+#BannerRed{
+    text-shadow: 0 0 3px Red;
+    color: Red;
+    padding: 5px;
+    text-align: center;
+
+}
 /* alerts */
 .alert{
     position: fixed;
@@ -611,4 +625,70 @@ li.actived a{
 .myArmy{
     color: #5e6eb8;
     font-weight: bold;
+}
+.attPanel-table {
+    text-align: center;
+}
+.boxed{
+    text-align: center;
+}
+.attPanel{
+    text-align: center;
+    min-width: 200px;
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 0px;
+    border: 1.5px solid darkgoldenrod;
+    border-radius: 5px 5px;
+}
+.attPanel button{
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px 5px;
+}
+.attPanel button:hover{
+    background-color: #d8a50b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #d8a50b;
+}
+.AttackPanel{
+    border: 1.5px solid rgba(183, 4, 0, 0.73);
+    color: rgba(183, 4, 0, 0.73);
+}
+.AttackPanel button{
+    background-color: rgba(183, 4, 0, 0.73);
+    border: none;
+    border-radius: 5px 5px;
+}
+.AttackPanel button:hover{
+    background-color: rgba(243, 4, 0, 0.73);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(243, 4, 0, 0.73);
+}
+.SpyPanel{
+    border: 1.5px solid rgba(183, 3, 136, 0.73);
+    color: rgba(183, 3, 136, 0.73);
+}
+.SpyPanel button{
+    background-color: rgba(183, 3, 136, 0.73);
+    border: none;
+    border-radius: 5px 5px;
+}
+.SpyPanel button:hover{
+    background-color: rgba(230, 3, 181, 0.73);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(230, 3, 181, 0.73);
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+.pageBannerWin{
+    color: green;
+}
+.red{
+    color: red;
+}
+.green{
+    color:green;
+}
+.center{
+    text-align: center;
 }
