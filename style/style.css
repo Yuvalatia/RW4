@@ -43,6 +43,12 @@ body {
     text-align: center;
 
 }
+#Bannerpurple{
+    text-shadow: 0 0 3px purple;
+    color: purple;
+    padding: 5px;
+    text-align: center;
+}
 /* alerts */
 .alert{
     position: fixed;

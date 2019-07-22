@@ -291,7 +291,7 @@
         <tr>
             <td><img class="icon-pic" src="icons/untrainedUpgrade.png" alt="untrainedUpgrade"></td>
             <td>Untrained unit Upgrade</td>
-            <td><?php echo "Level ".$untrainedUpgrade." : ".$untrainedLevel[$untrainedUpgrade]['perUpdate']." new units per day";?> </td>
+            <td><?php echo "Level ".$untrainedUpgrade." : ".$untrainedLevel[$untrainedUpgrade]['perUpdate']." new units per update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>

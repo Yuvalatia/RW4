@@ -17,7 +17,7 @@
     //w1
     $s1 = 10;
     //w2
-    $s2 = 80;
+    $s2 = 60;
     //w3
     $s3 = 450;
     //w4
@@ -37,14 +37,14 @@
     // RESOURCES UPGRADES LEVELS
 
     // GOLD RECEIVED PER LEVEL
-    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>10],
-                    /*1:*/["goldCost"=>5000,"perUpdate"=>20],
-                    /*2:*/["goldCost"=>15000,"perUpdate"=>30],
+    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>15],
+                    /*1:*/["goldCost"=>5000,"perUpdate"=>25],
+                    /*2:*/["goldCost"=>15000,"perUpdate"=>35],
                     /*3:*/["goldCost"=>50000,"perUpdate"=>35],
-                    /*4:*/["goldCost"=>90000,"perUpdate"=>40],
-                    /*5:*/["goldCost"=>150000,"perUpdate"=>45],
-                    /*6:*/["goldCost"=>500000,"perUpdate"=>60],
-                    /*7:*/["goldCost"=>1000000,"perUpdate"=>70]];
+                    /*4:*/["goldCost"=>90000,"perUpdate"=>45],
+                    /*5:*/["goldCost"=>150000,"perUpdate"=>55],
+                    /*6:*/["goldCost"=>500000,"perUpdate"=>65],
+                    /*7:*/["goldCost"=>1000000,"perUpdate"=>75]];
     // WOOD RECEIVED PER LEVEL
     $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>10],
         /*1:*/["woodCost"=>4000,"perUpdate"=>20],
@@ -70,14 +70,14 @@
         /*3:*/["turnsCost"=>2000,"perUpdate"=>6]];
 
     // UNTRAINED RECEIVED PER LEVEL
-    $untrainedLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>30],
-        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>40],
-        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>50],
-        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>60],
-        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>70],
-        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>80],
-        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>90],
-        /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>100]];
+    $untrainedLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>3],
+        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>4],
+        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>5],
+        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>6],
+        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>7],
+        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>8],
+        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>9],
+        /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>10]];
     // POWER RECEIVED PER LEVEL
     $powerLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>0],
         /*1:*/["goldCost"=>2000,"perUpdate"=>0.1],
@@ -114,6 +114,7 @@
     $woodEarnd    = 0.01*rand(20,30);
     $oreEarnd    = 0.01*rand(20,30);
     $warriorsLost = 0.01*rand(5,15);
+    $spyLost      = 0.01*rand(15,40);
 
 
     // RACE DECODE FUNCTION

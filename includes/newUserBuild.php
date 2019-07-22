@@ -18,7 +18,7 @@
     //INSERT DEFAULT UNITS
     // userUntrain	userWarriors	userWorkers	userIntlg	userSpy	userExp
     $sql ="INSERT INTO units (userId, userUntrain, userWarriors, userWorkers, userIntlg, userSpy, userExp, userDragons)
-           VALUES ('$userId', '120', '0', '0', '0', '0', '0', '0')";
+           VALUES ('$userId', '80', '1', '20', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 
     //INSERT DEFAULT POWERS

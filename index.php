@@ -2,8 +2,16 @@
 $TITLE = "Home";
 include("header.php"); 
 ?>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nam, reprehenderit perferendis excepturi necessitatibus assumenda quo tenetur odio dolorem consequuntur quod, facilis dicta laborum laudantium nisi expedita earum tempore repellat.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa aut, alias illo facilis voluptatum ea ipsum molestiae modi a distinctio consequuntur deserunt, nihil consectetur ratione et exercitationem, velit architecto.</p>
+<div style="text-align: center;">
+    <p>Welcome to RW4 "first impression" release.</p>
+    <p>Only Register and Login works!</p>
+<p>In game - base,attack,upgarde,store,train</p>
+<p>Update every 10 min for now...</p>
+<p>Reports you can send here : yodaatia123@gmail.com</p>
+
+<h1>Have Fun!</h1>
+</div>
+
 <?php
 include("footer.php");
 ?>

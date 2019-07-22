@@ -54,7 +54,7 @@ require ('attPanelincludes/attPanelCalc.php');
             </form>
         </div>
         <div class="col-md-4 tStat-res">
-            <form action="spyingResults.php" method="POST">
+            <form action="spyResults.php" method="POST">
                 <fieldset class="attPanel SpyPanel">
                     <legend>Spying</legend>
                     <small>* costs <?php echo $spyCost; ?> turns.</small><br>
