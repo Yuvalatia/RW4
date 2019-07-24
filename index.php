@@ -4,12 +4,12 @@ include("header.php");
 ?>
 <div style="text-align: center;">
     <p>Welcome to RW4 "first impression" release.</p>
-    <p>Only Register and Login works!</p>
+    <p>Only Register and Login works :</p>
 <p>In game - base,attack,upgarde,store,train</p>
-<p>Update every 10 min for now...</p>
+<p>Rank and resources update every 30 min for now...</p>
 <p>Reports you can send here : yodaatia123@gmail.com</p>
 
-<h1>Have Fun!</h1>
+<h1>Have Fun</h1>
 </div>
 
 <?php

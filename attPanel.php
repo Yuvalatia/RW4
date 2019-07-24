@@ -49,7 +49,15 @@ require ('attPanelincludes/attPanelCalc.php');
                 <fieldset class="attPanel AttackPanel">
                     <legend>Attack</legend>
                     <small>* costs <?php echo $attCost; ?> turns.</small><br>
-                    <button type="submit" name="id_attacked" value="<?php echo $user_attacked_id; ?>">Attack</button>
+                    <?php
+                        if($userTurns < 10){
+                            echo "Not enough turns...";
+                        }else {?>
+                            <button type="submit" name="id_attacked" value="<?php echo $user_attacked_id; ?>">Attack
+                            </button>
+                            <?php
+                        }
+                            ?>
                 </fieldset>
             </form>
         </div>
@@ -58,7 +66,15 @@ require ('attPanelincludes/attPanelCalc.php');
                 <fieldset class="attPanel SpyPanel">
                     <legend>Spying</legend>
                     <small>* costs <?php echo $spyCost; ?> turns.</small><br>
+                    <?php
+                    if($userSpy < 1 || $userTurns < 2){
+                    echo "1 spy and 2 turns required";
+                    }else {?>
                     <button type="submit" name="id_attacked" value="<?php echo $user_attacked_id; ?>">Send Spy</button>
+                    <?php
+                        }
+                            ?>
+
                 </fieldset>
             </form>
         </div>

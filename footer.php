@@ -3,7 +3,7 @@
       <!-- footer -->
       <div class="container">
           <div class="col-sm-12" id="botm">
-                Made by <a href="#">Yuval Atia</a> All the rights received &copy 2019
+                Made by <a href="#">Yuval Atia</a> All the rights reserved &copy 2019
           </div>
       </div>
     <!-- Optional JavaScript -->

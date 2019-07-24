@@ -2,7 +2,7 @@
 $TITLE = "Spy Results";
 include ('userHeader.php');
 
-if(!isset($_POST['id_attacked'])){
+if(!isset($_POST['id_attacked']) || $userSpy < 1 || $userTurns < 2){
     header("Location: attack.php");
 }else{
     $id_attacked = $_POST['id_attacked'];
