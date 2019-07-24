@@ -15,13 +15,13 @@
     <!-- gold upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/goldUpgrade.png" alt="goldUpgrade"></td>
+            <td><img class="icon-pic" src="icns/goldUpgrade.png" alt="goldUpgrade"></td>
             <td>Gold Upgrade</td>
             <td><?php echo "Level ".$goldUpgrade." : ".$goldLevel[$goldUpgrade]['perUpdate']." per worker at update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($goldUpgrade < sizeof($goldLevel)-1){
                                     echo $goldLevel[$goldUpgrade+1]['goldCost'];
@@ -47,13 +47,13 @@
     <!-- wood upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/woodUpgrade.png" alt="woodUpgrade"></td>
+            <td><img class="icon-pic" src="icns/woodUpgrade.png" alt="woodUpgrade"></td>
             <td>Wood Upgrade</td>
             <td><?php echo "Level ".$woodUpgrade." : ".$woodLevel[$woodUpgrade]['perUpdate']." per worker at update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td>
+                        <td><img class="price-icon" src="icns/wood.png" alt="wood"></td>
                         <td>
                             <?php if($woodUpgrade < sizeof($woodLevel)-1){
                                 echo $woodLevel[$woodUpgrade+1]['woodCost'];
@@ -79,13 +79,13 @@
     <!-- ore upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/oreUpgrade.png" alt="oreUpgrade"></td>
+            <td><img class="icon-pic" src="icns/oreUpgrade.png" alt="oreUpgrade"></td>
             <td>Ore Upgrade</td>
             <td><?php echo "Level ".$oreUpgrade." : ".$oreLevel[$oreUpgrade]['perUpdate']." per worker at update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td>
+                        <td><img class="price-icon" src="icns/ore.png" alt="ore"></td>
                         <td>
                             <?php if($oreUpgrade < sizeof($oreLevel)-1){
                                 echo $oreLevel[$oreUpgrade+1]['oreCost'];
@@ -111,13 +111,13 @@
     <!-- turns upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/turnsUpgrade.png" alt="turnsUpgrade"></td>
+            <td><img class="icon-pic" src="icns/turnsUpgrade.png" alt="turnsUpgrade"></td>
             <td>Turns Upgrade</td>
             <td><?php echo "Level ".$turnsUpgrade." : ".$turnsLevel[$turnsUpgrade]['perUpdate']." per update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/turns.png" alt="turns"></td>
+                        <td><img class="price-icon" src="icns/turns.png" alt="turns"></td>
                         <td>
                             <?php if($turnsUpgrade < sizeof($turnsLevel)-1){
                                 echo $turnsLevel[$turnsUpgrade+1]['turnsCost'];
@@ -161,13 +161,13 @@
     <!-- att upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/attUpgrade.png" alt="attUpgrade"></td>
+            <td><img class="icon-pic" src="icns/attUpgrade.png" alt="attUpgrade"></td>
             <td>Attack Power Upgrade</td>
             <td><?php echo "Level ".$attUpgrade." : ".($powerLevel[$attUpgrade]['perUpdate']*100)."% bonus power";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($attUpgrade < sizeof($powerLevel)-1){
                                 echo $powerLevel[$attUpgrade+1]['goldCost'];
@@ -193,13 +193,13 @@
     <!-- def upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/defUpgrade.png" alt="defUpgrade"></td>
+            <td><img class="icon-pic" src="icns/defUpgrade.png" alt="defUpgrade"></td>
             <td>Defence Power Upgrade</td>
             <td><?php echo "Level ".$defUpgrade." : ".($powerLevel[$defUpgrade]['perUpdate']*100)."% bonus power";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($defUpgrade < sizeof($powerLevel)-1){
                                 echo $powerLevel[$defUpgrade+1]['goldCost'];
@@ -225,13 +225,13 @@
     <!-- spy upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/spyUpgrade.png" alt="spyUpgrade"></td>
+            <td><img class="icon-pic" src="icns/spyUpgrade.png" alt="spyUpgrade"></td>
             <td>Spying Power Upgrade</td>
             <td><?php echo "Level ".$spyUpgrade." : ".($powerLevel[$spyUpgrade]['perUpdate']*100)."% bonus power";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($spyUpgrade < sizeof($powerLevel)-1){
                                 echo $powerLevel[$spyUpgrade+1]['goldCost'];
@@ -257,13 +257,13 @@
     <!-- exp upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/expUpgrade.png" alt="expUpgrade"></td>
+            <td><img class="icon-pic" src="icns/expUpgrade.png" alt="expUpgrade"></td>
             <td>Sight Power Upgrade</td>
             <td><?php echo "Level ".$expUpgrade." : ".($powerLevel[$expUpgrade]['perUpdate']*100)."% bonus power";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($expUpgrade < sizeof($powerLevel)-1){
                                 echo $powerLevel[$expUpgrade+1]['goldCost'];
@@ -289,13 +289,13 @@
     <!-- untrained upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/untrainedUpgrade.png" alt="untrainedUpgrade"></td>
+            <td><img class="icon-pic" src="icns/untrainedUpgrade.png" alt="untrainedUpgrade"></td>
             <td>Untrained unit Upgrade</td>
             <td><?php echo "Level ".$untrainedUpgrade." : ".$untrainedLevel[$untrainedUpgrade]['perUpdate']." new units per update";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($untrainedUpgrade < sizeof($untrainedLevel)-1){
                                 echo $untrainedLevel[$untrainedUpgrade+1]['goldCost'];
@@ -306,7 +306,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td>
+                        <td><img class="price-icon" src="icns/wood.png" alt="wood"></td>
                         <td>
                             <?php if($untrainedUpgrade < sizeof($untrainedLevel)-1){
                                 echo $untrainedLevel[$untrainedUpgrade+1]['woodCost'];
@@ -317,7 +317,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td>
+                        <td><img class="price-icon" src="icns/ore.png" alt="ore"></td>
                         <td>
                             <?php if($untrainedUpgrade < sizeof($untrainedLevel)-1){
                                 echo $untrainedLevel[$untrainedUpgrade+1]['oreCost'];
@@ -343,13 +343,13 @@
     <!-- wizdom upgrade -->
     <table class="store-table upgrade-table">
         <tr>
-            <td><img class="icon-pic" src="icons/intlgUpgrade.png" alt="intlgUpgrade"></td>
+            <td><img class="icon-pic" src="icns/intlgUpgrade.png" alt="intlgUpgrade"></td>
             <td>Wisdom Points Upgrade</td>
             <td><?php echo "Level ".$wizdomUpgrade." : ".$wizdomLevel[$wizdomUpgrade]['perUpdate']." points per intelligent";?> </td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td>
                         <td>
                             <?php if($wizdomUpgrade < sizeof($wizdomLevel)-1){
                                 echo $wizdomLevel[$wizdomUpgrade+1]['goldCost'];
@@ -360,7 +360,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/wood.png" alt="wood"></td>
+                        <td><img class="price-icon" src="icns/wood.png" alt="wood"></td>
                         <td>
                             <?php if($wizdomUpgrade < sizeof($wizdomLevel)-1){
                                 echo $wizdomLevel[$wizdomUpgrade+1]['woodCost'];
@@ -371,7 +371,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img class="price-icon" src="icons/ore.png" alt="ore"></td>
+                        <td><img class="price-icon" src="icns/ore.png" alt="ore"></td>
                         <td>
                             <?php if($wizdomUpgrade < sizeof($wizdomLevel)-1){
                                 echo $wizdomLevel[$wizdomUpgrade+1]['oreCost'];

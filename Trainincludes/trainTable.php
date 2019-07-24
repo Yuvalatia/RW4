@@ -3,7 +3,7 @@
     <tr>
         <td><strong>Untrained units: </strong></td>
         <td>
-            <img class="price-icon" src="icons/untrain.png" alt="untrain"> <?php echo $userUntrain; ?>
+            <img class="price-icon" src="icns/untrain.png" alt="untrain"> <?php echo $userUntrain; ?>
         </td>
     </tr>
 </table>
@@ -24,12 +24,12 @@
     <!-- warriors -->
     <table class="store-table train-table">
         <tr>
-            <td><img class="icon-pic" src="icons/warriors.png" alt="warriors"></td>
+            <td><img class="icon-pic" src="icns/warriors.png" alt="warriors"></td>
             <td>Warriors</td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $warriorPrice; ?></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td><td><?php echo $warriorPrice; ?></td>
                     </tr>
                 </table>
             </td>
@@ -40,12 +40,12 @@
     <!-- workers -->
     <table class="store-table train-table">
         <tr>
-            <td><img class="icon-pic" src="icons/workers.png" alt="workers"></td>
+            <td><img class="icon-pic" src="icns/workers.png" alt="workers"></td>
             <td>Workers</td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $workerPrice; ?></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td><td><?php echo $workerPrice; ?></td>
                     </tr>
                 </table>
             </td>
@@ -56,12 +56,12 @@
     <!-- intlg -->
     <table class="store-table train-table">
         <tr>
-            <td><img class="icon-pic" src="icons/intlg.png" alt="intlg"></td>
+            <td><img class="icon-pic" src="icns/intlg.png" alt="intlg"></td>
             <td>Intelligents</td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $intlgPrice; ?></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td><td><?php echo $intlgPrice; ?></td>
                     </tr>
                 </table>
             </td>
@@ -72,12 +72,12 @@
     <!-- spy -->
     <table class="store-table train-table">
         <tr>
-            <td><img class="icon-pic" src="icons/spy.png" alt="spy"></td>
+            <td><img class="icon-pic" src="icns/spy.png" alt="spy"></td>
             <td>Spies</td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $spyPrice; ?></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td><td><?php echo $spyPrice; ?></td>
                     </tr>
                 </table>
             </td>
@@ -88,12 +88,12 @@
     <!-- exp -->
     <table class="store-table train-table">
         <tr>
-            <td><img class="icon-pic" src="icons/exp.png" alt="exp"></td>
+            <td><img class="icon-pic" src="icns/exp.png" alt="exp"></td>
             <td>Explorers</td>
             <td>
                 <table class="price-table">
                     <tr>
-                        <td><img class="price-icon" src="icons/gold.png" alt="gold"></td><td><?php echo $expPrice; ?></td>
+                        <td><img class="price-icon" src="icns/gold.png" alt="gold"></td><td><?php echo $expPrice; ?></td>
                     </tr>
                 </table>
             </td>

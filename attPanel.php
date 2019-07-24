@@ -12,7 +12,7 @@ require ('attPanelincludes/attPanelCalc.php');
         <div class="col-md-4 col-sm-6 col-xs-6 tStat-res">
             <table class="attPanel-table">
                 <tr>
-                    <td rowspan="2"><img class="icon-pic" src="icons/race.png" alt="race"></td>
+                    <td rowspan="2"><img class="icon-pic" src="icns/race.png" alt="race"></td>
                     <td class="stat-name">Race</td>
                 </tr>
                 <tr>
@@ -23,7 +23,7 @@ require ('attPanelincludes/attPanelCalc.php');
         <div class="col-md-4 col-sm-6 col-xs-6 tStat-res">
             <table class="attPanel-table">
                 <tr>
-                    <td rowspan="2"><img class="icon-pic" src="icons/rank.png" alt="rank"></td>
+                    <td rowspan="2"><img class="icon-pic" src="icns/rank.png" alt="rank"></td>
                     <td class="stat-name">Rank</td>
                 </tr>
                 <tr>
@@ -34,7 +34,7 @@ require ('attPanelincludes/attPanelCalc.php');
         <div class="col-md-4 col-sm-6 col-xs-6 tStat-res">
             <table class="attPanel-table">
                 <tr>
-                    <td rowspan="2"><img class="icon-pic" src="icons/gold.png" alt="gold"></td>
+                    <td rowspan="2"><img class="icon-pic" src="icns/gold.png" alt="gold"></td>
                     <td class="stat-name">Gold</td>
                 </tr>
                 <tr>

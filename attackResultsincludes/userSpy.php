@@ -13,7 +13,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-xs-6 col-md-4  tStat-res">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/gold.png" alt="gold"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/gold.png" alt="gold"></td>
                             <td class="stat-name">Gold</td>
                         </tr>
                         <tr>
@@ -24,7 +24,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-xs-6 col-md-4 tStat-res">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/wood.png" alt="wood"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/wood.png" alt="wood"></td>
                             <td class="stat-name">Wood</td>
                         </tr>
                         <tr>
@@ -35,7 +35,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-xs-6 col-md-4 tStat-res">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/ore.png" alt="ore"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/ore.png" alt="ore"></td>
                             <td class="stat-name">Ore</td>
                         </tr>
                         <tr>
@@ -48,7 +48,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-md-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/army.png" alt="army"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/army.png" alt="army"></td>
                             <td class="stat-name">Army</td>
                         </tr>
                         <tr>
@@ -59,7 +59,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-md-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/race.png" alt="race"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/race.png" alt="race"></td>
                             <td class="stat-name">Race</td>
                         </tr>
                         <tr>
@@ -73,7 +73,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/attPower.png" alt="attPower"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/attPower.png" alt="attPower"></td>
                             <td class="stat-name">Attack Power</td>
                         </tr>
                         <tr>
@@ -84,7 +84,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/defPower.png" alt="defPower"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/defPower.png" alt="defPower"></td>
                             <td class="stat-name">Defence Power</td>
                         </tr>
                         <tr>
@@ -95,7 +95,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/spyPower.png" alt="spyPower"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/spyPower.png" alt="spyPower"></td>
                             <td class="stat-name">Spying Power</td>
                         </tr>
                         <tr>
@@ -106,7 +106,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/expPower.png" alt="sightPower"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/expPower.png" alt="sightPower"></td>
                             <td class="stat-name">Sight Power</td>
                         </tr>
                         <tr>
@@ -117,7 +117,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/uniPower.png" alt="uniPower"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/uniPower.png" alt="uniPower"></td>
                             <td class="stat-name">General power</td>
                         </tr>
                         <tr>
@@ -128,7 +128,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-4 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/intilPower.png" alt="wisdomPoints"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/intilPower.png" alt="wisdomPoints"></td>
                             <td class="stat-name">Wisdom Points</td>
                         </tr>
                         <tr>
@@ -139,7 +139,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-3 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/warriors.png" alt="warriors"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/warriors.png" alt="warriors"></td>
                             <td class="stat-name">Warriors</td>
                         </tr>
                         <tr>
@@ -150,7 +150,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-3 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/workers.png" alt="workers"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/workers.png" alt="workers"></td>
                             <td class="stat-name">Workers</td>
                         </tr>
                         <tr>
@@ -161,7 +161,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-3 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/intlg.png" alt="intlg"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/intlg.png" alt="intlg"></td>
                             <td class="stat-name">Intelligents</td>
                         </tr>
                         <tr>
@@ -172,7 +172,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-3 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/spy.png" alt="spy"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/spy.png" alt="spy"></td>
                             <td class="stat-name">Spy</td>
                         </tr>
                         <tr>
@@ -183,7 +183,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-6 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/exp.png" alt="explorer"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/exp.png" alt="explorer"></td>
                             <td class="stat-name">Explorers</td>
                         </tr>
                         <tr>
@@ -194,7 +194,7 @@ $userNewTurns = $userTurns - $spyCost;
                 <div class="col-sm-6 col-xs-6 tStat">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/dragons.png" alt="dragons"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/dragons.png" alt="dragons"></td>
                             <td class="stat-name">Dragons</td>
                         </tr>
                         <tr>

@@ -12,7 +12,7 @@ require ('includes/resTable.php');
     <div class="col-md-3 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/army.png" alt="army"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/army.png" alt="army"></td>
                 <td class="stat-name">Army</td>
             </tr>
             <tr>
@@ -23,7 +23,7 @@ require ('includes/resTable.php');
     <div class="col-md-3 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/rank.png" alt="rank"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/rank.png" alt="rank"></td>
                 <td class="stat-name">Rank</td>
             </tr>
             <tr>
@@ -34,7 +34,7 @@ require ('includes/resTable.php');
     <div class="col-md-3 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/clan.png" alt="clan"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/clan.png" alt="clan"></td>
                 <td class="stat-name">Clan</td>
             </tr>
             <tr>
@@ -45,7 +45,7 @@ require ('includes/resTable.php');
     <div class="col-md-3 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/race.png" alt="race"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/race.png" alt="race"></td>
                 <td class="stat-name">Race</td>
             </tr>
             <tr>
@@ -59,7 +59,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/attPower.png" alt="attPower"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/attPower.png" alt="attPower"></td>
                 <td class="stat-name">Attack Power</td>
             </tr>
             <tr>
@@ -70,7 +70,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/spyPower.png" alt="spyPower"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/spyPower.png" alt="spyPower"></td>
                 <td class="stat-name">Spying Power</td>
             </tr>
             <tr>
@@ -81,7 +81,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/warriors.png" alt="warriors"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/warriors.png" alt="warriors"></td>
                 <td class="stat-name">Warriors</td>
             </tr>
             <tr>
@@ -92,7 +92,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/defPower.png" alt="defPower"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/defPower.png" alt="defPower"></td>
                 <td class="stat-name">Defence Power</td>
             </tr>
             <tr>
@@ -103,7 +103,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/expPower.png" alt="sightPower"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/expPower.png" alt="sightPower"></td>
                 <td class="stat-name">Sight Power</td>
             </tr>
             <tr>
@@ -114,7 +114,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/workers.png" alt="workers"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/workers.png" alt="workers"></td>
                 <td class="stat-name">Workers</td>
             </tr>
             <tr>
@@ -125,7 +125,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/uniPower.png" alt="uniPower"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/uniPower.png" alt="uniPower"></td>
                 <td class="stat-name">General power</td>
             </tr>
             <tr>
@@ -136,7 +136,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/intilPower.png" alt="wisdomPoints"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/intilPower.png" alt="wisdomPoints"></td>
                 <td class="stat-name">Wisdom Points</td>
             </tr>
             <tr>
@@ -147,7 +147,7 @@ require ('includes/resTable.php');
     <div class="col-sm-4 col-xs-6 tStat">
         <table>
             <tr>
-                <td rowspan="2"><img class="icon-pic" src="icons/dragons.png" alt="dragons"></td>
+                <td rowspan="2"><img class="icon-pic" src="icns/dragons.png" alt="dragons"></td>
                 <td class="stat-name">Dragons</td>
             </tr>
             <tr>
@@ -169,7 +169,7 @@ require ('includes/resTable.php');
                 <div class="col-sm-4 tStat diamonds">
                     <table>
                         <tr>
-                            <td rowspan="2"><img class="icon-pic" src="icons/diamonds.png" alt="diamonds"></td>
+                            <td rowspan="2"><img class="icon-pic" src="icns/diamonds.png" alt="diamonds"></td>
                             <td class="stat-name">Diamonds</td>
                         </tr>
                         <tr>

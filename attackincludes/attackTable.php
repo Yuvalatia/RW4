@@ -2,9 +2,9 @@
     <thead>
     <tr>
         <th scope="col"># Rank</th>
-        <th scope="col"><img class="price-icon" src="icons/army.png" alt="army"> Army Name</th>
-        <th scope="col"><img class="price-icon" src="icons/race.png" alt="race"> Race</th>
-        <th scope="col"><img class="price-icon" src="icons/gold.png" alt="gold"> Gold</th>
+        <th scope="col"><img class="price-icon" src="icns/army.png" alt="army"> Army Name</th>
+        <th scope="col"><img class="price-icon" src="icns/race.png" alt="race"> Race</th>
+        <th scope="col"><img class="price-icon" src="icns/gold.png" alt="gold"> Gold</th>
     </tr>
     </thead>
     <tbody>
