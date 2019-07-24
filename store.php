@@ -26,6 +26,7 @@ require ('includes/resTable.php');
 <!-- Javascript for store -->
 <script src="scripts/store.js"></script>
 
+
 <?php
 include ('userFooter.php');
 ?>

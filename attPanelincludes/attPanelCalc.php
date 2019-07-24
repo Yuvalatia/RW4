@@ -1,8 +1,12 @@
 <?php
 
+// SQL highest ID army
+$sql       = "SELECT userId,userRank from users WHERE userRank != '0' ORDER BY userId DESC;";
+$results1   = mysqli_query($conn,$sql);
+$row1       = mysqli_fetch_assoc($results1);
+$taragetId = $row1['userId'];
 
-
-if(!isset($_GET['armyId'])){
+if(!isset($_GET['armyId']) || !preg_match($numbers,$_GET['armyId']) || $_GET['armyId'] > $taragetId){
         header("Location: attack.php");
     }else{
         if($_GET['armyId'] == $user_id){

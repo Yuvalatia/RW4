@@ -10,52 +10,57 @@ if(isset($_POST['submitTrain'])){
     $spies    = $_POST['spyCount'];
     $exps     = $_POST['expCount'];
 
-    // GOLD + UNTRAINED NEEDED
+    // PHP Validation
+    if(preg_match($numbers,$warriors) && preg_match($numbers,$workers) && preg_match($numbers,$intlgs)
+        && preg_match($numbers,$spies) && preg_match($numbers,$exps)) {
 
-    $unTrainedNeeded = $warriors + $workers + $intlgs + $spies + $exps;
+        // GOLD + UNTRAINED NEEDED
 
-    $goldNeeded      = ($warriors * $warriorPrice) + ($workers * $workerPrice) + ($intlgs * $intlgPrice)
-                     + ($spies * $spyPrice) + ($exps * $expPrice);
+        $unTrainedNeeded = $warriors + $workers + $intlgs + $spies + $exps;
 
-    // Checks for resorces AVAILAVE
-    if($goldNeeded > $userGold || $unTrainedNeeded > $userUntrain){
-        badAlert("Not enough untrained units or gold.");
-    }else{
-        // Have Resources
+        $goldNeeded = ($warriors * $warriorPrice) + ($workers * $workerPrice) + ($intlgs * $intlgPrice)
+            + ($spies * $spyPrice) + ($exps * $expPrice);
 
-        // CALC NEW GOLD AND UNITS
-        $newUntrain = $userUntrain - $unTrainedNeeded;
-        $newGold    = $userGold - $goldNeeded;
+        // Checks for resorces AVAILAVE
+        if ($goldNeeded > $userGold || $unTrainedNeeded > $userUntrain) {
+            badAlert("Not enough untrained units or gold.");
+        } else {
+            // Have Resources
 
-        // CALC NEW UNITS
-        $newWarriors = $userWarriors + $warriors;
-        $newWorkers  = $userWorkers  + $workers;
-        $newIntlg    = $userIntlg    + $intlgs;
-        $newSpy      = $userSpy      + $spies;
-        $newExp      = $userExp      + $exps;
+            // CALC NEW GOLD AND UNITS
+            $newUntrain = $userUntrain - $unTrainedNeeded;
+            $newGold = $userGold - $goldNeeded;
 
-        // SQL UPDATE
-        $sql = "UPDATE resources SET userGold='$newGold'
+            // CALC NEW UNITS
+            $newWarriors = $userWarriors + $warriors;
+            $newWorkers = $userWorkers + $workers;
+            $newIntlg = $userIntlg + $intlgs;
+            $newSpy = $userSpy + $spies;
+            $newExp = $userExp + $exps;
+
+            // SQL UPDATE
+            $sql = "UPDATE resources SET userGold='$newGold'
                     WHERE userId = '$user_id';";
-        if (mysqli_query($conn, $sql)) {
-            // RESOURCE UPDATED SUCSSESFULY
+            if (mysqli_query($conn, $sql)) {
+                // RESOURCE UPDATED SUCSSESFULY
 
-            // UPDATE WEAPONS
-            $sql = "UPDATE units SET userUntrain='$newUntrain', userWarriors='$newWarriors', userWorkers='$newWorkers',
+                // UPDATE WEAPONS
+                $sql = "UPDATE units SET userUntrain='$newUntrain', userWarriors='$newWarriors', userWorkers='$newWorkers',
                     userIntlg='$newIntlg', userSpy='$newSpy', userExp='$newExp' 
                     WHERE userId = '$user_id';";
-            if(mysqli_query($conn,$sql)){
-                // BUYING SUCCSESS
-                goodAlert("units trained successfully.");
-            }else{
+                if (mysqli_query($conn, $sql)) {
+                    // BUYING SUCCSESS
+                    goodAlert("units trained successfully.");
+                } else {
+                    badAlert("Error updating record: " . mysqli_error($conn));
+                }
+            } else {
                 badAlert("Error updating record: " . mysqli_error($conn));
             }
-        } else {
-            badAlert("Error updating record: " . mysqli_error($conn));
-        }
 
-        // REFRESH THE PAGE - DETAILS
-        require ('includes/userDetailsFetch.php');
+            // REFRESH THE PAGE - DETAILS
+            require('includes/userDetailsFetch.php');
+        }
     }
 }
 

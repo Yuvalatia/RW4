@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cbe3c0-4ed9-4a22-8954-b50337931772" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storeincludes/attTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/attTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storeincludes/defTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/defTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storeincludes/expTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/expTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storeincludes/spyTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/spyTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trainincludes/trainTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Trainincludes/trainTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upgradeinclude/upgradeTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Upgradeinclude/upgradeTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/attPanel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attackResultsincludes/userSpy.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackResultsincludes/userSpy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attackincludes/attackTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackincludes/attackTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/army.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/attPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/attUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/clan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/defPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/defUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/diamonds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/dragons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/exp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/expPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/expUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/goldUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/intilPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/intlg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/intlgUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/ore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/oreUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/race.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/rank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/spy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/spyPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/spyUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/strength.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/turns.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/turnsUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/uniPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/untrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/untrainedUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/warriors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/wood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/woodUpgrade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/workers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/resTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/resTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storeincludes/storeCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Storeincludes/storeCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trainincludes/trainCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Trainincludes/trainCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attPanelincludes/attPanelCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/attPanelincludes/attPanelCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attackincludes/attackCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackincludes/attackCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/dbh.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/dbh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/gameStats.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/gameStats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/store.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +19,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="974">
+              <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update/rankUpdate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="66">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/attackincludes/attackCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -69,25 +58,34 @@
         <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Upgradeinclude/upgradeTable.php">
+        <entry file="file://$PROJECT_DIR$/attPanelincludes/attPanelCalc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="373" column="59" selection-start-line="373" selection-start-column="59" selection-end-line="373" selection-end-column="59" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/dbh.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attack.php">
+        <entry file="file://$PROJECT_DIR$/includes/userCalcStats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="-288">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -102,46 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attackResults.php">
+        <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attPanel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-726">
-              <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="171" column="78" lean-forward="true" selection-start-line="171" selection-start-column="78" selection-end-line="171" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Upgradeinclude/upgradeCalc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8250">
-              <caret line="375" column="61" selection-start-line="375" selection-start-column="61" selection-end-line="375" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trainincludes/trainTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="102" column="12" lean-forward="true" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+            <state relative-caret-position="44">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -166,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Store.php" />
         <option value="$PROJECT_DIR$/includes/spyTable.php" />
         <option value="$PROJECT_DIR$/includes/expTable.php" />
         <option value="$PROJECT_DIR$/includes/attTable.php" />
@@ -175,7 +136,6 @@
         <option value="$PROJECT_DIR$/includes/alerts.php" />
         <option value="$PROJECT_DIR$/Storeincludes/priceStats.php" />
         <option value="$PROJECT_DIR$/Training.php" />
-        <option value="$PROJECT_DIR$/store.php" />
         <option value="$PROJECT_DIR$/scripts/train.js" />
         <option value="$PROJECT_DIR$/train.php" />
         <option value="$PROJECT_DIR$/upgrade.php" />
@@ -183,22 +143,17 @@
         <option value="$PROJECT_DIR$/update/normalUpdate.php" />
         <option value="$PROJECT_DIR$/userHeader.php" />
         <option value="$PROJECT_DIR$/attackincludes/eachUserGold.php" />
-        <option value="$PROJECT_DIR$/attackincludes/attackCalc.php" />
         <option value="$PROJECT_DIR$/attack.php" />
-        <option value="$PROJECT_DIR$/attPanelincludes/attPanelCalc.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/attackedCalcStats.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userWon.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userLose.php" />
         <option value="$PROJECT_DIR$/includes/userCalcStats.php" />
         <option value="$PROJECT_DIR$/includes/userDetailsFetch.php" />
-        <option value="$PROJECT_DIR$/Trainincludes/trainCalc.php" />
-        <option value="$PROJECT_DIR$/Storeincludes/storeCalc.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/attackResultsincludes/attackedFetch.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userSight.php" />
         <option value="$PROJECT_DIR$/includes/newUserBuild.php" />
-        <option value="$PROJECT_DIR$/includes/gameStats.php" />
         <option value="$PROJECT_DIR$/update/rankUpdate.php" />
         <option value="$PROJECT_DIR$/update/update.php" />
         <option value="$PROJECT_DIR$/update/resUpdate.php" />
@@ -217,6 +172,13 @@
         <option value="$PROJECT_DIR$/Upgradeinclude/upgradeTable.php" />
         <option value="$PROJECT_DIR$/attPanel.php" />
         <option value="$PROJECT_DIR$/base.php" />
+        <option value="$PROJECT_DIR$/includes/gameStats.php" />
+        <option value="$PROJECT_DIR$/Storeincludes/storeCalc.php" />
+        <option value="$PROJECT_DIR$/Trainincludes/trainCalc.php" />
+        <option value="$PROJECT_DIR$/attackincludes/attackCalc.php" />
+        <option value="$PROJECT_DIR$/store.php" />
+        <option value="$PROJECT_DIR$/attPanelincludes/attPanelCalc.php" />
+        <option value="$PROJECT_DIR$/includes/dbh.php" />
       </list>
     </option>
   </component>
@@ -224,10 +186,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="620" />
-    <option name="y" value="1" />
-    <option name="width" value="1308" />
-    <option name="height" value="1030" />
+    <option name="x" value="-10" />
+    <option name="y" value="10" />
+    <option name="width" value="729" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -311,7 +273,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work1internet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -350,18 +312,18 @@
       <workItem from="1561109091370" duration="15971000" />
       <workItem from="1561970947158" duration="15078000" />
       <workItem from="1562940991693" duration="179853000" />
-      <workItem from="1563986231052" duration="929000" />
+      <workItem from="1563986231052" duration="4830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275284000" />
+    <option name="totallyTimeSpent" value="279185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16107382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,93 +369,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/train.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update.php" />
-    <entry file="file://$PROJECT_DIR$/update/normalUpdate.php" />
-    <entry file="file://$PROJECT_DIR$/attackResultsincludes.php" />
-    <entry file="file://$PROJECT_DIR$/userHeader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="94" selection-start-line="69" selection-start-column="94" selection-end-line="69" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upgrade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spyResults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
           <caret line="70" column="41" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attackincludes/attackCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attackincludes/attackTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -546,29 +425,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attPanelincludes/attPanelCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/alerts.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/dbh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2136">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/login-inc.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/userCalcStats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modals/loginFailedModal.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -642,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/storeCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="231" column="13" lean-forward="true" selection-start-line="231" selection-start-column="13" selection-end-line="231" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Storeincludes/spyTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -656,38 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trainincludes/trainTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="102" column="12" lean-forward="true" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update/rankUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -705,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/attack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/attackResults.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -719,17 +528,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="171" column="78" lean-forward="true" selection-start-line="171" selection-start-column="78" selection-end-line="171" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spyResults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userFooter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="94" selection-start-line="69" selection-start-column="94" selection-end-line="69" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attackincludes/attackTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="66" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/attPanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
+        <state relative-caret-position="792">
           <caret line="36" column="65" lean-forward="true" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base.php">
+    <entry file="file://$PROJECT_DIR$/Storeincludes/storeCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4728">
+          <caret line="250" column="20" lean-forward="true" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/userCalcStats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attackincludes/attackCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update/rankUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="171" column="78" lean-forward="true" selection-start-line="171" selection-start-column="78" selection-end-line="171" selection-end-column="78" />
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attPanelincludes/attPanelCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

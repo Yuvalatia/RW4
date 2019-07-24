@@ -1,7 +1,8 @@
 <?php
 
-if(!isset($_GET['page'])){
+if(!isset($_GET['page']) || !preg_match($numbers,$_GET['page'])){
     header("Location: base.php");
+    exit();
 }else{
     // GET ARMY GOLD FUNCTION
     function getArmyGold($id){
@@ -24,7 +25,10 @@ if(!isset($_GET['page'])){
         }
     }
     $maxPage = (int)($rankedUsers/$armysInPage);
-
+    if($_GET['page'] > $maxPage) {
+        header("Location: base.php");
+        exit();
+    }
     // SET PAGE
     $page = $_GET['page'];
 }

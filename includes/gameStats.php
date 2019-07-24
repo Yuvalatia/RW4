@@ -1,5 +1,6 @@
 <?php
 
+    $numbers = "/^[0-9]+$/";
 
     // STORE PRICE STATS
 
