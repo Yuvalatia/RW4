@@ -2,7 +2,6 @@
 
     if(isset($_POST["submit"])){
         // if the path was from the register
-    echo "hi";
 
     // connect to database
     include_once "dbh.php";
