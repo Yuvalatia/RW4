@@ -38,14 +38,14 @@
     // RESOURCES UPGRADES LEVELS
 
     // GOLD RECEIVED PER LEVEL
-    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>15],
-                    /*1:*/["goldCost"=>5000,"perUpdate"=>25],
-                    /*2:*/["goldCost"=>15000,"perUpdate"=>35],
-                    /*3:*/["goldCost"=>50000,"perUpdate"=>35],
-                    /*4:*/["goldCost"=>90000,"perUpdate"=>45],
-                    /*5:*/["goldCost"=>150000,"perUpdate"=>55],
-                    /*6:*/["goldCost"=>500000,"perUpdate"=>65],
-                    /*7:*/["goldCost"=>1000000,"perUpdate"=>75]];
+    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>12],
+                    /*1:*/["goldCost"=>5000,"perUpdate"=>22],
+                    /*2:*/["goldCost"=>15000,"perUpdate"=>32],
+                    /*3:*/["goldCost"=>50000,"perUpdate"=>32],
+                    /*4:*/["goldCost"=>90000,"perUpdate"=>42],
+                    /*5:*/["goldCost"=>150000,"perUpdate"=>52],
+                    /*6:*/["goldCost"=>500000,"perUpdate"=>62],
+                    /*7:*/["goldCost"=>1000000,"perUpdate"=>72]];
     // WOOD RECEIVED PER LEVEL
     $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>10],
         /*1:*/["woodCost"=>4000,"perUpdate"=>20],
