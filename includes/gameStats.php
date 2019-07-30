@@ -104,6 +104,8 @@
 
     // ARMYS PER ATT PAGE
     $armysInPage = 30;
+    // HISTORY PER PAGE
+    $historyInPage = 20;
 
     // actions turns costs
     $attCost    = 10;
@@ -137,4 +139,5 @@
                 return "undefined";
         }
     }
+
 ?>

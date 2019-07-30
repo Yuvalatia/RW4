@@ -12,7 +12,7 @@
 
     $userArmy     = $row['userArmy'];
     $userRace     = $row['userRace'];
-    $_userName    = $row['userName'];
+    $userName     = $row['userName'];
     $userLastName = $row['userLastName'];
     $userEmail    = $row['userEmail'];
     $userPass     = $row['userPass'];

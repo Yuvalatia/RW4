@@ -10,6 +10,8 @@ ob_start();
     if(isset($_SESSION['userId'])) {
     // FETCH USER DETAILS
         require('includes/userDetailsFetch.php');
+    // FETCH FUNCTIONS NEEDED
+        require ('includes/function-inc.php');
     }
 ?>
 <!doctype html>
@@ -21,12 +23,16 @@ ob_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <meta name="author" content="Yuval atia">
+    <link rel="icon" href="imgs/foryuval32.ico" sizes="32x32">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
+      <nav >
+
+      </nav>
       <!-- logo -->
       <div class="container">
       <div class="row">
@@ -37,7 +43,7 @@ ob_start();
           </div>
       </div>
         <!-- NavBar -->
-      <div class="container">   
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -126,7 +132,6 @@ ob_start();
                    
                 
     </nav>
-      </div>
       <!-- body -->
-      <div class="container">             
+
               <div class="col-sm-12" id="realm">

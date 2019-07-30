@@ -26,6 +26,12 @@
              WHERE userId='$id_attacked';";
             if(mysqli_query($conn,$sql)){
                 // ALL SET
+
+                // HISTORY ADD
+                $sql = "INSERT INTO history (attackedId, attackerId, attackDate, winnerId, 	goldStolen, woodStolen, oreStolen, warriorsDead)
+                VALUES ('$id_attacked', '$user_id', '$cuurentDate', '$user_id', '$goldWon', '$woodWon', '$oreWon', '$warriorLost')";
+                mysqli_query($conn,$sql);
+
                 ?>
                 <h1 id="BannerGreen">You Won!</h1>
                 <div class="row center">

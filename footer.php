@@ -1,5 +1,4 @@
-</div>         
-      </div>
+</div>
       <!-- footer -->
       <div class="container">
           <div class="col-sm-12" id="botm">

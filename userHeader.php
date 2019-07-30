@@ -109,7 +109,7 @@ exit();
                         if($TITLE == "History"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">History</a></li>
+                        ?>"><a href="history.php">History</a></li>
 
                     </ul>
                 </div>

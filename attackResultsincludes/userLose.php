@@ -14,6 +14,12 @@ $userNewTurns = $userTurns - $attCost;
              WHERE userId='$user_id';";
         if(mysqli_query($conn,$sql)){
             // ALL SET
+
+            // HISTORY ADD
+            $sql = "INSERT INTO history (attackedId, attackerId, attackDate, winnerId, 	goldStolen, woodStolen, oreStolen, warriorsDead)
+                VALUES ('$id_attacked', '$user_id', '$cuurentDate', '$id_attacked', '0', '0', '0', '$warriorLost')";
+            mysqli_query($conn,$sql);
+
             ?>
             <h1 id="BannerRed">You Lose!</h1>
             <div class="row center">

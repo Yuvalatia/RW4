@@ -2,6 +2,22 @@ body {
     background-color: black;
     padding-bottom: 3px
 }
+.navbar-brand img{
+
+}
+.row-nav{
+    flex-direction: row;
+}
+.row-item{
+    margin-right: 40px;
+}
+@media (min-width: 320px) and (max-width: 800px) {
+    .row-item{
+        margin-right: 10px;
+        font-size: small;
+    }
+}
+
 #logo{
     width: 80%;
 }
@@ -11,9 +27,9 @@ body {
     padding-bottom: 25px;
     color: darkgoldenrod;
     height: 50%;
-    border-bottom: 2px solid #212529;
+    /*border-bottom: 2px solid #212529;
     border-left: 2px solid #212529;
-    border-right: 2px solid #212529;
+    border-right: 2px solid #212529;*/
     /*background-color: aliceblue;*/
     /*background: #050505;*/
 
@@ -697,4 +713,32 @@ legend{
 }
 .center{
     text-align: center;
+}
+.history-container{
+    background-color: rgba(37, 34, 33, 0.95);
+    border: 1.5px solid darkgoldenrod;
+    margin-bottom: 4px;
+    border-radius: 5px 5px;
+}
+.history-table{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.history-table td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.history-table-inner{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.history-table-inner td{
+    padding-left: 5px;
+    padding-right: 5px;
 }

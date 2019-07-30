@@ -10,6 +10,10 @@ if(!isset($_POST['id_attacked']) || $userTurns < 10){
     // SQL DATA ATTACKED USER FETCH
     require ('attackResultsincludes/attackedFetch.php');
 
+    // SET CurrentTime
+    date_default_timezone_set("Asia/Jerusalem");
+    $cuurentDate = date("Y-m-d h:i:sa");
+
     // CHECKS WHO WIN
     if($userAtt > $attackedDef){
         // USER WON
