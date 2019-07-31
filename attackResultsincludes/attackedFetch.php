@@ -39,5 +39,11 @@
     $attackedSight      = $row['userSight'];
     $attackedGeneral    = $row['userGeneral'];
 
+    $sql     = "SELECT * FROM bank WHERE userId = '$id_attacked'";
+    $results = mysqli_query($conn,$sql);
+    $row     = mysqli_fetch_assoc($results);
+
+    $attackedGoldInBank = $row['bankGold'];
+
 
 ?>

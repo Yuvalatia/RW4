@@ -202,6 +202,9 @@ $userNewTurns = $userTurns - $spyCost;
                         </tr>
                     </table>
                 </div>
+                <div class="col-sm-12 col-xs-12 tStat">
+                    <i class="fas fa-coins"></i> Gold in Bank : <?php echo $attackedGoldInBank; ?>
+                </div>
             </div>
             <?php
             // SET CALC ATTACKED AND USER
