@@ -103,7 +103,7 @@ exit();
                         if($TITLE == "Bank"){
                             echo "actived";
                         }
-                        ?>"><a href="base.php">Bank</a></li>
+                        ?>"><a href="bank.php">Bank</a></li>
                         <li class="list-group-item <?php
                         // active link
                         if($TITLE == "History"){

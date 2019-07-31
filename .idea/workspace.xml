@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cbe3c0-4ed9-4a22-8954-b50337931772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historyIncludes/attackOnyou.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historyIncludes/yourAttacks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/function-inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bankincludes/bankCalc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/bank.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attackResults.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackResults.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attackResultsincludes/userLose.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackResultsincludes/userLose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attackResultsincludes/userWon.php" beforeDir="false" afterPath="$PROJECT_DIR$/attackResultsincludes/userWon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/gameStats.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/gameStats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/newUserBuild.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/newUserBuild.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/userDetailsFetch.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/userDetailsFetch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/resUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/update/resUpdate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/userHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v0.02.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,94 +22,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Storeincludes/attTable.php">
+        <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+            <state relative-caret-position="418">
+              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attackResultsincludes/userWon.php">
+        <entry file="file://$PROJECT_DIR$/Trainincludes/trainTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="396">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
+        <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
+            <state relative-caret-position="462">
+              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="61" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+        <entry file="file://$PROJECT_DIR$/scripts/bank.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/function-inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/history.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/historyIncludes/attackOnyou.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="504">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/historyIncludes/yourAttacks.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="9" lean-forward="true" selection-end-line="68" selection-end-column="6" />
+            <state relative-caret-position="358">
+              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/update/update.php">
+        <entry file="file://$PROJECT_DIR$/Storeincludes/storeCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="61" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bankincludes/bankCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bankUpdater.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/update/rankUpdate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="53" />
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -140,10 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Storeincludes/priceStats.php" />
-        <option value="$PROJECT_DIR$/Training.php" />
-        <option value="$PROJECT_DIR$/scripts/train.js" />
-        <option value="$PROJECT_DIR$/upgrade.php" />
         <option value="$PROJECT_DIR$/Upgradeinclude/upgradeCalc.php" />
         <option value="$PROJECT_DIR$/update/normalUpdate.php" />
         <option value="$PROJECT_DIR$/attackincludes/eachUserGold.php" />
@@ -152,15 +143,12 @@
         <option value="$PROJECT_DIR$/includes/userCalcStats.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/attackedFetch.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userSight.php" />
-        <option value="$PROJECT_DIR$/includes/newUserBuild.php" />
         <option value="$PROJECT_DIR$/update/rankUpdate.php" />
         <option value="$PROJECT_DIR$/update/update.php" />
-        <option value="$PROJECT_DIR$/update/resUpdate.php" />
         <option value="$PROJECT_DIR$/spyResults.php" />
         <option value="$PROJECT_DIR$/attackincludes/attackTable.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userSpy.php" />
         <option value="$PROJECT_DIR$/includes/resTable.php" />
-        <option value="$PROJECT_DIR$/Storeincludes/attTable.php" />
         <option value="$PROJECT_DIR$/Storeincludes/defTable.php" />
         <option value="$PROJECT_DIR$/Storeincludes/expTable.php" />
         <option value="$PROJECT_DIR$/Storeincludes/spyTable.php" />
@@ -177,20 +165,27 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/register-inc.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/userHeader.php" />
         <option value="$PROJECT_DIR$/train.php" />
         <option value="$PROJECT_DIR$/attackincludes/attackCalc.php" />
         <option value="$PROJECT_DIR$/attackResults.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userWon.php" />
         <option value="$PROJECT_DIR$/attackResultsincludes/userLose.php" />
-        <option value="$PROJECT_DIR$/includes/gameStats.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/includes/userDetailsFetch.php" />
         <option value="$PROJECT_DIR$/includes/function-inc.php" />
-        <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/historyIncludes/yourAttacks.php" />
         <option value="$PROJECT_DIR$/historyIncludes/attackOnyou.php" />
         <option value="$PROJECT_DIR$/history.php" />
+        <option value="$PROJECT_DIR$/Storeincludes/attTable.php" />
+        <option value="$PROJECT_DIR$/userHeader.php" />
+        <option value="$PROJECT_DIR$/bankUpdater.php" />
+        <option value="$PROJECT_DIR$/includes/newUserBuild.php" />
+        <option value="$PROJECT_DIR$/includes/userDetailsFetch.php" />
+        <option value="$PROJECT_DIR$/bank.php" />
+        <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/scripts/bank.js" />
+        <option value="$PROJECT_DIR$/bankincludes/bankCalc.php" />
+        <option value="$PROJECT_DIR$/includes/gameStats.php" />
+        <option value="$PROJECT_DIR$/update/resUpdate.php" />
       </list>
     </option>
   </component>
@@ -230,6 +225,11 @@
               <item name="RW4" type="b2602c69:ProjectViewProjectNode" />
               <item name="RW4" type="462c0819:PsiDirectoryNode" />
               <item name="attPanelincludes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RW4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RW4" type="462c0819:PsiDirectoryNode" />
+              <item name="bankincludes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RW4" type="b2602c69:ProjectViewProjectNode" />
@@ -329,12 +329,12 @@
       <workItem from="1561970947158" duration="15078000" />
       <workItem from="1562940991693" duration="179853000" />
       <workItem from="1563986231052" duration="14059000" />
-      <workItem from="1564220866365" duration="22786000" />
+      <workItem from="1564220866365" duration="35282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311200000" />
+    <option name="totallyTimeSpent" value="323696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -386,44 +386,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modals/newUserModal.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/defTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="93" column="59" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/expTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/spyTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trainincludes/trainTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="102" column="12" lean-forward="true" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Upgradeinclude/upgradeCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8250">
-          <caret line="375" column="61" selection-start-line="375" selection-start-column="61" selection-end-line="375" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Upgradeinclude/upgradeTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -458,16 +420,6 @@
         <state relative-caret-position="-198" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upgrade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -482,27 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/storeCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4728">
-          <caret line="250" column="20" lean-forward="true" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/dbh.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -510,24 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rOOPx1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -569,13 +486,6 @@
     <entry file="file://$PROJECT_DIR$/attackResultsincludes/attackedCalcStats.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-346" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/newUserBuild.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/attackResultsincludes/attackedFetch.php">
@@ -639,38 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="107" column="4" lean-forward="true" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userHeader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attackResultsincludes/userWon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -681,31 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update/rankUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Storeincludes/attTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -726,10 +587,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/update/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/history.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="11" column="6" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attackResultsincludes/userWon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/newUserBuild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storeincludes/attTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rOOPx1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/train.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="767" column="16" selection-start-line="767" selection-start-column="16" selection-end-line="767" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Storeincludes/storeCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="56" selection-start-column="15" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bankUpdater.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bank.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/userDetailsFetch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bankincludes/bankCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/gameStats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trainincludes/trainCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="61" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trainincludes/trainTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update/resUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
         </state>
       </provider>
     </entry>

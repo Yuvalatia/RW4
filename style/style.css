@@ -742,3 +742,28 @@ legend{
     padding-left: 5px;
     padding-right: 5px;
 }
+.bank-div{
+    background-color: rgba(113, 10, 8, 0.73);
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px 5px;
+    padding: 10px;
+    text-align: center;
+}
+.bank-div button{
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px 5px;
+}
+.bank-div button:hover{
+    background-color: #d8a50b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #d8a50b;
+}
+.bank-div input{
+    color: darkgoldenrod;
+    width: 30%;
+    display: inline;
+    height: 30px;
+}
+.bank-div form{
+    padding: 5px;
+}

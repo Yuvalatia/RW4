@@ -7,22 +7,22 @@
     //w1
     $w1 = ["gold" => 500,"wood" => 300, "ore" => 300];
     //w2
-    $w2 = ["gold" => 2500,"wood" => 1400, "ore" => 1400];
+    $w2 = ["gold" => 4000,"wood" => 2400, "ore" => 2400];
     //w3
-    $w3 = ["gold" => 12500,"wood" => 7000, "ore" => 7000];
+    $w3 = ["gold" => 20000,"wood" => 12000, "ore" => 12000];
     //w4
-    $w4 = ["gold" => 50000,"wood" => 28000, "ore" => 28000];
+    $w4 = ["gold" => 60000,"wood" => 36000, "ore" => 36000];
 
     // WEAPONGS STRENGTH STATS
 
     //w1
     $s1 = 10;
     //w2
-    $s2 = 60;
+    $s2 = 90;
     //w3
-    $s3 = 450;
+    $s3 = 480;
     //w4
-    $s4 = 2000;
+    $s4 = 1500;
 
 
     // UNITS PRICE STATS
@@ -38,32 +38,32 @@
     // RESOURCES UPGRADES LEVELS
 
     // GOLD RECEIVED PER LEVEL
-    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>12],
-                    /*1:*/["goldCost"=>5000,"perUpdate"=>22],
-                    /*2:*/["goldCost"=>15000,"perUpdate"=>32],
-                    /*3:*/["goldCost"=>50000,"perUpdate"=>32],
-                    /*4:*/["goldCost"=>90000,"perUpdate"=>42],
-                    /*5:*/["goldCost"=>150000,"perUpdate"=>52],
-                    /*6:*/["goldCost"=>500000,"perUpdate"=>62],
-                    /*7:*/["goldCost"=>1000000,"perUpdate"=>72]];
+    $goldLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>10],
+                    /*1:*/["goldCost"=>5000,"perUpdate"=>15],
+                    /*2:*/["goldCost"=>15000,"perUpdate"=>20],
+                    /*3:*/["goldCost"=>50000,"perUpdate"=>25],
+                    /*4:*/["goldCost"=>90000,"perUpdate"=>30],
+                    /*5:*/["goldCost"=>150000,"perUpdate"=>35],
+                    /*6:*/["goldCost"=>500000,"perUpdate"=>40],
+                    /*7:*/["goldCost"=>1000000,"perUpdate"=>50]];
     // WOOD RECEIVED PER LEVEL
-    $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>10],
-        /*1:*/["woodCost"=>4000,"perUpdate"=>20],
-        /*2:*/["woodCost"=>10000,"perUpdate"=>30],
-        /*3:*/["woodCost"=>40000,"perUpdate"=>35],
-        /*4:*/["woodCost"=>80000,"perUpdate"=>40],
-        /*5:*/["woodCost"=>100000,"perUpdate"=>45],
-        /*6:*/["woodCost"=>250000,"perUpdate"=>60],
-        /*7:*/["woodCost"=>1000000,"perUpdate"=>70]];
+    $woodLevel = [/*0:*/["woodCost"=>0,"perUpdate"=>4],
+        /*1:*/["woodCost"=>4000,"perUpdate"=>8],
+        /*2:*/["woodCost"=>10000,"perUpdate"=>12],
+        /*3:*/["woodCost"=>40000,"perUpdate"=>16],
+        /*4:*/["woodCost"=>80000,"perUpdate"=>24],
+        /*5:*/["woodCost"=>100000,"perUpdate"=>28],
+        /*6:*/["woodCost"=>250000,"perUpdate"=>32],
+        /*7:*/["woodCost"=>1000000,"perUpdate"=>40]];
     // ORE RECEIVED PER LEVEL
-    $oreLevel = [/*0:*/["oreCost"=>0,"perUpdate"=>10],
-        /*1:*/["oreCost"=>4000,"perUpdate"=>20],
-        /*2:*/["oreCost"=>10000,"perUpdate"=>30],
-        /*3:*/["oreCost"=>40000,"perUpdate"=>35],
-        /*4:*/["oreCost"=>80000,"perUpdate"=>40],
-        /*5:*/["oreCost"=>100000,"perUpdate"=>45],
-        /*6:*/["oreCost"=>250000,"perUpdate"=>60],
-        /*7:*/["oreCost"=>1000000,"perUpdate"=>70]];
+    $oreLevel = [/*0:*/["oreCost"=>0,"perUpdate"=>4],
+        /*1:*/["oreCost"=>4000,"perUpdate"=>8],
+        /*2:*/["oreCost"=>10000,"perUpdate"=>12],
+        /*3:*/["oreCost"=>40000,"perUpdate"=>16],
+        /*4:*/["oreCost"=>80000,"perUpdate"=>24],
+        /*5:*/["oreCost"=>100000,"perUpdate"=>28],
+        /*6:*/["oreCost"=>250000,"perUpdate"=>32],
+        /*7:*/["oreCost"=>1000000,"perUpdate"=>40]];
     // TURNS RECEIVED PER LEVEL
     $turnsLevel = [/*0:*/["turnsCost"=>0,"perUpdate"=>3],
         /*1:*/["turnsCost"=>250,"perUpdate"=>4],
@@ -116,9 +116,13 @@
     $goldEarnd    = 0.01*rand(20,40);
     $woodEarnd    = 0.01*rand(20,30);
     $oreEarnd    = 0.01*rand(20,30);
-    $warriorsLost = 0.01*rand(5,15);
+    $warriorsLost = 0.01*rand(3,6);
     $spyLost      = 0.01*rand(15,40);
 
+    // BANK STATS
+    $bankStatus = 48;
+    $bankTimeMax = 96;
+    $bankTimePerUpdate = 1;
 
     // RACE DECODE FUNCTION
     function race($race_id){

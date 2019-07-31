@@ -90,6 +90,17 @@
     $dragonsUpgrade        = $row['dragonsUpgrade'];
     $untrainedUpgrade      = $row['untrainedUpgrade'];
 
+    // USER BANK INFO
+    $sql     = "SELECT * FROM bank WHERE userId = '$user_id'";
+    $results = mysqli_query($conn,$sql);
+    $row     = mysqli_fetch_assoc($results);
+
+    $goldBank    = $row['bankGold'];
+    $bankTimes   = $row['bankTimes'];
+    $bankUpgrade = $row['bankUpgrade'];
+
+
+
 
     // USER CALC STATS
     require ('userCalcStats.php');

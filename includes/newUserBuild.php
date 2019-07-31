@@ -39,6 +39,11 @@
                    VALUES ('$userId', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')";
     mysqli_query($conn,$sql);
 
+    // INSERT BANK DEFFULT
+    $sql1 = "INSERT INTO bank (userId, bankGold, bankTimes, bankUpgrade)
+              VALUES ('$userId', '0', '96', '0')";
+    mysqli_query($conn,$sql1);
+
 
 
 ?>

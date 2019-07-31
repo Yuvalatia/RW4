@@ -16,7 +16,7 @@ while($row = $results->fetch_assoc()){
 
     $sql1      = "SELECT * FROM units WHERE userId='$userIdRank';";
     $results1  = mysqli_query($conn,$sql1) or die(mysqli_error($conn));
-    $rowInner = mysqli_fetch_assoc($results1);
+    $rowInner  = mysqli_fetch_assoc($results1);
 
     $userWorkers  = $rowInner['userWorkers'];
     $userIntlg    = $rowInner['userIntlg'];
@@ -24,7 +24,7 @@ while($row = $results->fetch_assoc()){
 
     $sql1      = "SELECT * FROM upgrades WHERE userId='$userIdRank';";
     $results1  = mysqli_query($conn,$sql1) or die(mysqli_error($conn));
-    $rowInner = mysqli_fetch_assoc($results1);
+    $rowInner  = mysqli_fetch_assoc($results1);
 
     $goldUpgrade           = $rowInner['goldUpgrade'];
     $woodUpgrade           = $rowInner['woodUpgrade'];
@@ -35,9 +35,15 @@ while($row = $results->fetch_assoc()){
 
     $sql1      = "SELECT * FROM powers WHERE userId='$userIdRank';";
     $results1  = mysqli_query($conn,$sql1) or die(mysqli_error($conn));
-    $rowInner = mysqli_fetch_assoc($results1);
+    $rowInner  = mysqli_fetch_assoc($results1);
 
     $userWizdom     = $rowInner['userWizdom'];
+
+    $sql1       = "SELECT * FROM bank WHERE userId='$userIdRank';";
+    $results1   = mysqli_query($conn,$sql1) or die(mysqli_error($conn));
+    $rowInner   = mysqli_fetch_assoc($results1);
+
+    $bankTimes  = $rowInner['bankTimes'];
 
     // CALC NEW STATS
     $userNewGold  = $userGold + ($userWorkers * $goldLevel[$goldUpgrade]['perUpdate']);
@@ -51,6 +57,13 @@ while($row = $results->fetch_assoc()){
     // CALC wisdom points
     $userNewWizdom    = $userWizdom + ($userIntlg * $wizdomLevel[$wizdomUpgrade]['perUpdate']);
 
+    // CALC bank stats
+    if($bankTimes < $bankTimeMax) {
+        $userNewTimes = $bankTimes + $bankTimePerUpdate;
+    }else{
+        $userNewTimes = $bankTimes;
+    }
+
     // SQL IN NEW STATS
     $sql1 = "UPDATE resources SET userGold='$userNewGold', userWood='$userNewWood', userOre='$userNewOre', userTurns='$userNewTurns'
             WHERE userId='$userIdRank';";
@@ -61,7 +74,13 @@ while($row = $results->fetch_assoc()){
             $sql1 = "UPDATE powers SET userWizdom='$userNewWizdom' 
             WHERE userId='$userIdRank';";
             if(mysqli_query($conn,$sql1)){
+                $sql1 = "UPDATE bank SET bankTimes='$userNewTimes'
+                 WHERE userId='$userIdRank';";
+                if(mysqli_query($conn,$sql1)){
 
+                }else{
+                    badAlert("Error updating record: " . mysqli_error($conn));
+                }
             }else{
                 badAlert("Error updating record: " . mysqli_error($conn));
             }
