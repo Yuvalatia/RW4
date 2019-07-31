@@ -19,11 +19,7 @@ include("header.php");
         <div class="row">
             <div class="col-md-4"></div>
             <div class="bugs col-md-7" style="text-align: left;">
-                <span class="badge badge-warning">Fixed</span> Turns bug.<br>
-                <span class="badge badge-warning">Fixed</span> Validation bug.<br>
-                <span class="badge badge-warning">Fixed</span> Spy sending bug.<br>
-                <span class="badge badge-warning">Fixed</span> Attack page bug.<br>
-                <span class="badge badge-warning">Fixed</span> Attack panel bug.<br>
+                <span class="badge badge-warning">Fixed</span> Max Power Bug.<br>
             </div>
             <div class="col-md-1"></div>
         </div>
