@@ -71,13 +71,13 @@
         /*3:*/["turnsCost"=>2000,"perUpdate"=>6]];
 
     // UNTRAINED RECEIVED PER LEVEL
-    $untrainedLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>3],
-        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>4],
-        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>5],
-        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>6],
-        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>7],
-        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>8],
-        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>9],
+    $untrainedLevel = [/*0:*/["goldCost"=>500,"woodCost"=>250,"oreCost"=>250,"perUpdate"=>1],
+        /*1:*/["goldCost"=>2500,"woodCost"=>1250,"oreCost"=>1250,"perUpdate"=>2],
+        /*2:*/["goldCost"=>5000,"woodCost"=>2500,"oreCost"=>2500,"perUpdate"=>3],
+        /*3:*/["goldCost"=>10000,"woodCost"=>5000,"oreCost"=>5000,"perUpdate"=>4],
+        /*4:*/["goldCost"=>25000,"woodCost"=>12500,"oreCost"=>12500,"perUpdate"=>6],
+        /*5:*/["goldCost"=>100000,"woodCost"=>50000,"oreCost"=>50000,"perUpdate"=>7],
+        /*6:*/["goldCost"=>500000,"woodCost"=>250000,"oreCost"=>250000,"perUpdate"=>8],
         /*7:*/["goldCost"=>1000000,"woodCost"=>500000,"oreCost"=>500000,"perUpdate"=>10]];
     // POWER RECEIVED PER LEVEL
     $powerLevel = [/*0:*/["goldCost"=>0,"perUpdate"=>0],
