@@ -1,5 +1,6 @@
 
 <?php
+require ('includes/dbh.php');
 
 $sql = "SELECT * FROM users";
 $results = mysqli_query($conn,$sql);

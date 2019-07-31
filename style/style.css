@@ -743,7 +743,7 @@ legend{
     padding-right: 5px;
 }
 .bank-div{
-    background-color: rgba(113, 10, 8, 0.73);
+    background-color: #710A08;
     border: 1px solid darkgoldenrod;
     border-radius: 5px 5px;
     padding: 10px;
@@ -761,7 +761,7 @@ legend{
 .bank-div input{
     color: darkgoldenrod;
     width: 30%;
-    display: inline;
+    display: inline-block;
     height: 30px;
 }
 .bank-div form{
