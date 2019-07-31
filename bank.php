@@ -23,7 +23,14 @@ require ('includes/resTable.php');
         <div class="col-sm-4">
             <i class="fas fa-hand-holding-usd"></i> Number of Deposits : <?php echo (int)($bankTimes/$bankStatus); ?>
         </div>
-
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <hr>
+            * You will get 2 deposits per day.<br>
+            * The bank withdraws are unlimited and costless.
+            <hr>
+        </div>
+        <div class="col-sm-2"></div>
         <div class="col-sm-6">
             <form name="depositForm" action="bank.php" method="POST" onsubmit="return depositFormVal()" autocomplete="off">
             <input type="text" name="depositInput" class="form-control" value="<?php echo (int)($userGold /2); ?>">
